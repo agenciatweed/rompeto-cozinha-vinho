@@ -10,27 +10,58 @@ const tempos = [
 ];
 
 const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
+
+const slides = [
+  { n: '19', pos: '50% 55%' },
+  { n: '25', pos: '50% 45%' },
+  { n: '12', pos: '40% 55%' },
+  { n: '28', pos: '50% 50%' },
+  { n: '9', pos: '50% 50%' },
+];
 ---
 
 <Base
   title="Rompeto · Cozinha & Vinho · Porto Alegre"
   description="Restaurante e adega de alta enogastronomia em Mont'Serrat, Porto Alegre. Almoço, bar e jantar. Reservas pelo WhatsApp."
 >
-  <header class="topline">
-    <p class="topline-hours caps"><span class="sr-only">Abrimos de terça a quinta a partir das 17h, sexta e sábado a partir das 12h</span><span aria-hidden="true">Ter–Qui 17h · Sex–Sáb 12h</span></p>
-    <a class="btn btn-outline" href={whatsapp} target="_blank" rel="noopener">Reservar</a>
-  </header>
-
   <main id="conteudo">
-    <!-- A carta: primeira dobra -->
-    <section class="carta" aria-labelledby="carta-titulo">
-      <span class="ill ill-taca" aria-hidden="true"><img src="/img/ill-taca.webp" alt="" width="290" height="600" /><svg class="trail" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path d="M400 52 C330 54 300 20 230 26 C160 32 120 58 60 46 C35 41 15 36 0 38" vector-effect="non-scaling-stroke" /></svg></span>
-      <span class="ill ill-decanter" aria-hidden="true"><img src="/img/ill-decanter.webp" alt="" width="371" height="600" /><svg class="trail" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 52 C70 54 110 22 180 28 C250 34 300 56 350 44 C370 39 385 30 400 26" vector-effect="non-scaling-stroke" /></svg></span>
-      <span class="ill ill-saca" aria-hidden="true"><img src="/img/ill-saca-rolhas.webp" alt="" width="617" height="600" /><svg class="trail" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 52 C70 54 110 22 180 28 C250 34 300 56 350 44 C370 39 385 30 400 26" vector-effect="non-scaling-stroke" /></svg></span>
+    <!-- Abertura: fotos do salão em sequência -->
+    <section class="hero" aria-labelledby="hero-titulo">
+      <div class="hero-slides" aria-hidden="true">
+        {
+          slides.map((sl, i) => (
+            <img
+              class={`hero-slide${i === 0 ? ' is-active' : ''}`}
+              src={`/img/hero-${sl.n}-1920.webp`}
+              srcset={`/img/hero-${sl.n}-1080.webp 1080w, /img/hero-${sl.n}-1920.webp 1920w`}
+              sizes="100vw"
+              alt=""
+              width="1920"
+              height="1280"
+              style={`object-position:${sl.pos};--kb:${i % 2 ? '-1' : '1'}`}
+              fetchpriority={i === 0 ? 'high' : 'low'}
+              decoding="async"
+            />
+          ))
+        }
+      </div>
+      <div class="hero-content">
+        <h1 id="hero-titulo" class="hero-mark">
+          <img src="/brand/logo-cream.svg" alt="Rompeto · Cozinha & Vinho" width="1140" height="504" />
+        </h1>
+        <a class="btn btn-line hero-cta" id="hero-cta" href={whatsapp} target="_blank" rel="noopener">Reservar mesa</a>
+      </div>
+      <a class="hero-down" href="#carta" aria-label="Ver as seções da casa">
+        <svg viewBox="0 0 16 28" aria-hidden="true"><path d="M8 1v25M1 19l7 7 7-7" /></svg>
+      </a>
+    </section>
 
-      <h1 id="carta-titulo" class="mark">
-        <img src="/brand/logo-night.svg" alt="Rompeto · Cozinha & Vinho" width="1140" height="504" />
-      </h1>
+    <!-- A carta -->
+    <section class="carta" id="carta" aria-labelledby="carta-titulo">
+      <h2 id="carta-titulo" class="sr-only">A casa em quatro tempos</h2>
+      <p class="mark" aria-hidden="true">
+        <img src="/brand/logo-night.svg" alt="" width="1140" height="504" loading="lazy" />
+      </p>
 
       <nav class="tempos" aria-label="Seções da casa">
         {
@@ -69,7 +100,8 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
     </section>
 
     <!-- I · Reserva -->
-    <section id="reserva" class="tempo-section on-night" aria-labelledby="aperitivo-titulo">
+    <section id="reserva" class="tempo-section on-night has-ill" aria-labelledby="aperitivo-titulo">
+      <span class="sec-ill from-left" aria-hidden="true"><img src="/img/ill-decanter-cream.webp" alt="" width="372" height="600" loading="lazy" /><svg class="trail" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M400 52 C330 54 300 20 230 26 C160 32 120 58 60 46 C35 41 15 36 0 38" vector-effect="non-scaling-stroke" /></svg></span>
       <div class="aperitivo">
         <div class="aperitivo-text">
           <h2 id="aperitivo-titulo" class="section-head caps">
@@ -115,7 +147,8 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
     </section>
 
     <!-- II · A casa -->
-    <section id="historia" class="tempo-section" aria-labelledby="entrada-titulo">
+    <section id="historia" class="tempo-section has-ill" aria-labelledby="entrada-titulo">
+      <span class="sec-ill from-right" aria-hidden="true"><img src="/img/ill-taca.webp" alt="" width="290" height="600" loading="lazy" /><svg class="trail" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M0 52 C70 54 110 22 180 28 C250 34 300 56 350 44 C370 39 385 30 400 26" vector-effect="non-scaling-stroke" /></svg></span>
       <div class="entrada">
         <figure class="entrada-photo">
           <img
@@ -150,13 +183,13 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
             </p>
           </div>
 
-          <img class="ill ill-inline" src="/img/ill-saca-rolhas-t.webp" alt="" width="300" height="600" loading="lazy" />
         </div>
       </div>
     </section>
 
     <!-- III · Cardápios -->
-    <section id="cardapios" class="tempo-section principal-section" aria-labelledby="principal-titulo">
+    <section id="cardapios" class="tempo-section principal-section has-ill" aria-labelledby="principal-titulo">
+      <span class="sec-ill from-left" aria-hidden="true"><img src="/img/ill-saca-rolhas.webp" alt="" width="617" height="600" loading="lazy" /><svg class="trail" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M400 52 C330 54 300 20 230 26 C160 32 120 58 60 46 C35 41 15 36 0 38" vector-effect="non-scaling-stroke" /></svg></span>
       <div class="principal">
         <header class="principal-head">
           <h2 id="principal-titulo" class="section-head caps">
@@ -217,6 +250,7 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
         />
       </figure>
       <div class="sobremesa">
+        <span class="sec-ill from-right sec-ill-visit" aria-hidden="true"><img src="/img/ill-saca-rolhas-t-cream.webp" alt="" width="500" height="600" loading="lazy" /><svg class="trail" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M0 52 C70 54 110 22 180 28 C250 34 300 56 350 44 C370 39 385 30 400 26" vector-effect="non-scaling-stroke" /></svg></span>
         <div>
           <h2 id="sobremesa-titulo" class="section-head caps">
             <span class="section-n">IV</span> Visite
@@ -253,34 +287,148 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
 
 <script>
   document.documentElement.classList.add('js');
+  const io = 'IntersectionObserver' in window;
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Abertura: troca de foto a cada 4 segundos
+  const slides = [...document.querySelectorAll<HTMLImageElement>('.hero-slide')];
+  let current = 0;
+  if (slides.length > 1 && !still) {
+    setInterval(() => {
+      if (document.hidden) return;
+      const prev = slides[current];
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('is-active');
+      prev.classList.add('is-leaving');
+      setTimeout(() => prev.classList.remove('is-active', 'is-leaving'), 1400);
+    }, 4000);
+  }
+
+  // Ilustrações das seções entram pela lateral
+  const ills = document.querySelectorAll('.sec-ill');
+  if (io) {
+    const seen = new IntersectionObserver(
+      (entries) =>
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('in');
+            seen.unobserve(e.target);
+          }
+        }),
+      { rootMargin: '0px 0px -12% 0px' },
+    );
+    ills.forEach((el) => seen.observe(el));
+  } else {
+    ills.forEach((el) => el.classList.add('in'));
+  }
+
+  // Reserva fixa no celular: só quando nenhum botão de reserva está à vista
   const dock = document.querySelector('.dock');
-  const cta = document.getElementById('carta-cta');
-  if (dock && cta && 'IntersectionObserver' in window) {
-    new IntersectionObserver(([e]) => {
-      dock.classList.toggle('is-on', !e.isIntersecting && e.boundingClientRect.top < 0);
-    }).observe(cta);
+  const ctas = ['hero-cta', 'carta-cta']
+    .map((id) => document.getElementById(id))
+    .filter((el): el is HTMLElement => el !== null);
+  if (dock && ctas.length && io) {
+    const visible = new Set<Element>();
+    const watch = new IntersectionObserver((entries) => {
+      entries.forEach((e) => (e.isIntersecting ? visible.add(e.target) : visible.delete(e.target)));
+      const past = ctas[0].getBoundingClientRect().top < 0;
+      dock.classList.toggle('is-on', visible.size === 0 && past);
+    });
+    ctas.forEach((el) => watch.observe(el));
   } else if (dock) {
     dock.classList.add('is-on');
   }
 </script>
 
 <style>
-  /* ——— Linha de topo ——— */
-  .topline {
+  /* ——— Abertura ——— */
+  .hero {
+    position: relative;
+    display: grid;
+    place-items: center;
+    min-height: 100svh;
+    overflow: hidden;
+    background: var(--night-deep);
+    color: var(--cream);
+    isolation: isolate;
+  }
+  .hero-slides,
+  .hero::after {
+    position: absolute;
+    inset: 0;
+  }
+  .hero::after {
+    content: '';
+    z-index: 1;
+    background:
+      radial-gradient(ellipse at 50% 46%, rgb(11 31 48 / 0.3), rgb(11 31 48 / 0.52) 72%),
+      linear-gradient(rgb(11 31 48 / 0.16), rgb(11 31 48 / 0.1) 50%, rgb(11 31 48 / 0.5));
+  }
+  .hero-slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1.4s ease-in-out;
+  }
+  .hero-slide.is-active {
+    opacity: 1;
+    animation: kenburns 6.5s linear both;
+  }
+  .hero-slide.is-leaving {
+    opacity: 0;
+  }
+  @keyframes kenburns {
+    from {
+      transform: scale(1.02) translate3d(0, 0, 0);
+    }
+    to {
+      transform: scale(1.14) translate3d(calc(var(--kb) * -1.6%), -1%, 0);
+    }
+  }
+  .hero-content {
     position: relative;
     z-index: 2;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    max-width: var(--max);
-    margin: 0 auto;
-    padding: clamp(18px, 2.4vw, 34px) var(--gutter) 0;
+    gap: clamp(36px, 6vh, 72px);
+    padding: 0 var(--gutter);
   }
-  .topline-hours {
+  .hero-mark {
     margin: 0;
-    font-size: clamp(0.6875rem, 0.45rem + 0.45vw, 0.9375rem);
-    color: var(--night);
+    width: min(46vw, 640px);
+  }
+  .hero-mark img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 2px 18px rgb(11 31 48 / 0.35));
+  }
+  .hero-cta {
+    font-size: clamp(0.875rem, 0.6rem + 0.5vw, 1.0625rem);
+    padding: 1.05em 3em;
+    background: rgb(11 31 48 / 0.3);
+  }
+  .hero-down {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    bottom: clamp(20px, 4vh, 40px);
+    width: 44px;
+    height: 44px;
+    margin-left: -22px;
+    display: grid;
+    place-items: center;
+    color: var(--gold-soft);
+  }
+  .hero-down svg {
+    width: 14px;
+    height: 26px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.2;
   }
 
   /* ——— A carta ——— */
@@ -288,72 +436,99 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
     position: relative;
     max-width: var(--max);
     margin: 0 auto;
-    padding: 0 var(--gutter) clamp(40px, 5vw, 72px);
-    min-height: calc(100svh - 80px);
+    padding: clamp(64px, 8vw, 128px) var(--gutter) clamp(72px, 8vw, 128px);
     display: flex;
     flex-direction: column;
   }
 
   .mark {
-    margin: clamp(-28px, -1.6vw, 0px) auto 0;
-    width: min(31vw, 500px);
+    margin: 0 auto;
+    width: min(19vw, 280px);
   }
   .mark img {
     width: 100%;
     height: auto;
   }
 
-  .ill {
+  /* Uma ilustração por seção, alternando os lados, com o traço contínuo até a borda */
+  .sec-ill {
     position: absolute;
+    z-index: 1;
+    top: clamp(28px, 3.4vw, 56px);
+    width: clamp(44px, 4.6vw, 76px);
+    color: var(--night);
     pointer-events: none;
     user-select: none;
+    transition:
+      opacity 1s var(--ease-out),
+      transform 1.4s var(--ease-out);
   }
-  .ill img {
+  .on-night .sec-ill {
+    color: var(--cream);
+  }
+  .sec-ill img {
     position: relative;
     z-index: 1;
     width: 100%;
     height: auto;
   }
-  /* O traço contínuo que sai de cada ilustração e corre até a borda */
+  .sec-ill.from-left {
+    left: calc(var(--gutter) + 1vw);
+  }
+  .sec-ill.from-right {
+    right: calc(var(--gutter) + 1vw);
+  }
   .trail {
     position: absolute;
     bottom: 0;
+    width: 50vw;
     height: 28px;
     fill: none;
-    stroke: var(--night);
+    stroke: currentColor;
     stroke-width: 1.1;
     stroke-linecap: round;
     overflow: visible;
   }
-  .ill-taca .trail {
+  .trail path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1.8s var(--ease-out) 0.25s;
+  }
+  .from-left .trail {
     right: 40%;
-    width: 50vw;
   }
-  .ill-decanter .trail,
-  .ill-saca .trail {
+  .from-right .trail {
     left: 46%;
-    width: 50vw;
   }
-  .ill-taca {
-    left: calc(var(--gutter) + 1vw);
-    top: clamp(44px, 4.8vw, 80px);
-    width: clamp(44px, 4.4vw, 72px);
+  :global(.js) .sec-ill:not(.in) {
+    opacity: 0;
   }
-  .ill-decanter {
-    right: calc(var(--gutter) + 4vw);
-    top: clamp(36px, 3.6vw, 64px);
-    width: clamp(52px, 5.4vw, 88px);
+  :global(.js) .sec-ill.from-left:not(.in) {
+    transform: translateX(-56px);
   }
-  .ill-saca {
-    right: calc(var(--gutter) + 1vw);
-    bottom: clamp(36px, 4vw, 64px);
-    width: clamp(60px, 6vw, 96px);
+  :global(.js) .sec-ill.from-right:not(.in) {
+    transform: translateX(56px);
+  }
+  :global(.js) .sec-ill:not(.in) .trail path {
+    stroke-dashoffset: 1;
+  }
+  .has-ill {
+    padding-top: clamp(150px, 15vw, 232px);
+  }
+  .sobremesa {
+    position: relative;
+  }
+  .sobremesa-section .sobremesa {
+    margin-top: clamp(132px, 13vw, 200px);
+  }
+  .sec-ill-visit {
+    top: calc(clamp(132px, 13vw, 200px) * -1 + clamp(28px, 3vw, 44px));
   }
 
   .tempos {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    margin-top: clamp(20px, 2.5vw, 44px);
+    margin-top: clamp(48px, 5.6vw, 96px);
   }
 
   .tempo {
@@ -446,8 +621,8 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    margin-top: clamp(20px, 1.9vw, 32px);
+    gap: 16px;
+    margin-top: clamp(48px, 5vw, 84px);
   }
   .carta-foot .btn {
     font-family: 'Playfair Display', var(--f-text);
@@ -616,13 +791,6 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
   }
   .prose p {
     margin: 0 0 1em;
-  }
-  .ill-inline {
-    position: static;
-    height: auto;
-    width: 46px;
-    margin-top: 20px;
-    opacity: 0.9;
   }
 
   /* III · Principal */
@@ -827,28 +995,27 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
 
   /* ——— Tablet e celular ——— */
   @media (max-width: 899px) {
-    .carta {
-      min-height: 0;
+    .hero-mark {
+      width: min(74vw, 420px);
     }
     .mark {
-      width: min(68vw, 400px);
-      margin-top: 20px;
+      width: min(42vw, 220px);
     }
-    .ill-taca {
-      top: 118px;
-      left: 12px;
-      width: 30px;
+    .sec-ill {
+      width: 38px;
+      top: 28px;
     }
-    .ill-decanter {
-      top: 70px;
-      right: 14px;
-      width: 36px;
+    .sec-ill.from-left {
+      left: 20px;
+    }
+    .sec-ill.from-right {
+      right: 20px;
+    }
+    .has-ill {
+      padding-top: 132px;
     }
     .trail {
       height: 18px;
-    }
-    .ill-saca {
-      display: none;
     }
     .tempos {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -918,10 +1085,6 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
   }
 
   @media (max-width: 479px) {
-    .topline-hours {
-      font-size: 0.6875rem;
-      letter-spacing: 0.22em;
-    }
     .tempo {
       padding: 0 10px;
     }
