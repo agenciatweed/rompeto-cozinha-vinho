@@ -17,16 +17,16 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
   description="Restaurante e adega de alta enogastronomia em Mont'Serrat, Porto Alegre. Almoço, bar e jantar. Reservas pelo WhatsApp."
 >
   <header class="topline">
-    <p class="topline-hours caps">Ter–Sáb<span class="topline-more"> <span aria-hidden="true">·</span> Bar a partir das 17h</span></p>
+    <p class="topline-hours caps"><span class="sr-only">Abrimos de terça a quinta a partir das 17h, sexta e sábado a partir das 12h</span><span aria-hidden="true">Ter–Qui 17h · Sex–Sáb 12h</span></p>
     <a class="btn btn-outline" href={whatsapp} target="_blank" rel="noopener">Reservar</a>
   </header>
 
   <main id="conteudo">
     <!-- A carta: primeira dobra -->
     <section class="carta" aria-labelledby="carta-titulo">
-      <img class="ill ill-taca" src="/img/ill-taca.webp" alt="" width="290" height="600" />
-      <img class="ill ill-decanter" src="/img/ill-decanter.webp" alt="" width="371" height="600" />
-      <img class="ill ill-saca" src="/img/ill-saca-rolhas.webp" alt="" width="617" height="600" />
+      <span class="ill ill-taca" aria-hidden="true"><img src="/img/ill-taca.webp" alt="" width="290" height="600" /><svg class="trail" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path d="M400 52 C330 54 300 20 230 26 C160 32 120 58 60 46 C35 41 15 36 0 38" vector-effect="non-scaling-stroke" /></svg></span>
+      <span class="ill ill-decanter" aria-hidden="true"><img src="/img/ill-decanter.webp" alt="" width="371" height="600" /><svg class="trail" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 52 C70 54 110 22 180 28 C250 34 300 56 350 44 C370 39 385 30 400 26" vector-effect="non-scaling-stroke" /></svg></span>
+      <span class="ill ill-saca" aria-hidden="true"><img src="/img/ill-saca-rolhas.webp" alt="" width="617" height="600" /><svg class="trail" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 52 C70 54 110 22 180 28 C250 34 300 56 350 44 C370 39 385 30 400 26" vector-effect="non-scaling-stroke" /></svg></span>
 
       <h1 id="carta-titulo" class="mark">
         <img src="/brand/logo-night.svg" alt="Rompeto · Cozinha & Vinho" width="1140" height="504" />
@@ -60,7 +60,7 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
       </nav>
 
       <div class="carta-foot">
-        <a class="btn btn-solid" href={whatsapp} target="_blank" rel="noopener">Reserve sua mesa</a>
+        <a class="btn btn-solid btn-serif" id="carta-cta" href={whatsapp} target="_blank" rel="noopener">Reserve sua mesa</a>
         <p class="carta-address">
           {address.street.replace('Nº ', '')} <span aria-hidden="true">·</span> {address.district}
           <span aria-hidden="true">·</span> Porto Alegre
@@ -250,6 +250,19 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
   </a>
 </Base>
 
+<script>
+  document.documentElement.classList.add('js');
+  const dock = document.querySelector('.dock');
+  const cta = document.getElementById('carta-cta');
+  if (dock && cta && 'IntersectionObserver' in window) {
+    new IntersectionObserver(([e]) => {
+      dock.classList.toggle('is-on', !e.isIntersecting && e.boundingClientRect.top < 0);
+    }).observe(cta);
+  } else if (dock) {
+    dock.classList.add('is-on');
+  }
+</script>
+
 <style>
   /* ——— Linha de topo ——— */
   .topline {
@@ -292,25 +305,48 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
   .ill {
     position: absolute;
     pointer-events: none;
-    height: auto;
     user-select: none;
   }
+  .ill img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+  /* O traço contínuo que sai de cada ilustração e corre até a borda */
+  .trail {
+    position: absolute;
+    bottom: 0;
+    height: 28px;
+    fill: none;
+    stroke: var(--night);
+    stroke-width: 1.1;
+    stroke-linecap: round;
+    overflow: visible;
+  }
+  .ill-taca .trail {
+    right: 40%;
+    width: 50vw;
+  }
+  .ill-decanter .trail,
+  .ill-saca .trail {
+    left: 46%;
+    width: 50vw;
+  }
   .ill-taca {
-    left: max(0px, calc(var(--gutter) - 8px));
-    top: clamp(60px, 8vw, 120px);
-    width: clamp(46px, 5.2vw, 82px);
+    left: calc(var(--gutter) + 1vw);
+    top: clamp(44px, 4.8vw, 80px);
+    width: clamp(44px, 4.4vw, 72px);
   }
   .ill-decanter {
-    right: calc(var(--gutter) + 3vw);
-    top: clamp(48px, 5.4vw, 84px);
-    width: clamp(56px, 6vw, 96px);
-    transform: rotate(-6deg);
+    right: calc(var(--gutter) + 4vw);
+    top: clamp(36px, 3.6vw, 64px);
+    width: clamp(52px, 5.4vw, 88px);
   }
   .ill-saca {
-    right: calc(var(--gutter) - 4px);
-    bottom: clamp(10px, 2vw, 28px);
-    width: clamp(70px, 7.5vw, 118px);
-    transform: rotate(14deg);
+    right: calc(var(--gutter) + 1vw);
+    bottom: clamp(36px, 4vw, 64px);
+    width: clamp(60px, 6vw, 96px);
   }
 
   .tempos {
@@ -354,7 +390,7 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
 
   .tempo-head {
     font-size: clamp(0.95rem, 0.3rem + 1.4vw, 1.75rem);
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.2em;
     line-height: 1.2;
     white-space: nowrap;
@@ -413,10 +449,11 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
     margin-top: clamp(20px, 1.9vw, 32px);
   }
   .carta-foot .btn {
-    font-size: clamp(0.875rem, 0.45rem + 0.75vw, 1.25rem);
+    font-family: 'Playfair Display', var(--f-text);
+    font-size: clamp(0.95rem, 0.5rem + 0.8vw, 1.375rem);
     font-weight: 500;
-    letter-spacing: 0.22em;
-    padding: 0.85em 2.4em;
+    letter-spacing: 0.16em;
+    padding: 0.72em 2.2em;
   }
   .carta-address {
     margin: 0;
@@ -432,7 +469,7 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
   }
   .on-night {
     background-color: var(--night);
-    background-image: linear-gradient(rgb(15 41 62 / 0.78), rgb(15 41 62 / 0.78)), url('/img/granito-azul.webp');
+    background-image: linear-gradient(rgb(15 41 62 / 0.55), rgb(15 41 62 / 0.55)), url('/img/granito-azul.webp');
     background-size: auto, 900px auto;
     color: var(--cream);
   }
@@ -785,12 +822,16 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
     }
     .ill-taca {
       top: 118px;
-      width: 32px;
+      left: 12px;
+      width: 30px;
     }
     .ill-decanter {
-      top: 64px;
-      right: var(--gutter);
-      width: 40px;
+      top: 70px;
+      right: 14px;
+      width: 36px;
+    }
+    .trail {
+      height: 18px;
     }
     .ill-saca {
       display: none;
@@ -839,6 +880,14 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
       text-decoration: none;
       border: 1px solid var(--gold);
       box-shadow: 0 10px 28px rgb(11 31 48 / 0.28);
+      transition:
+        transform 0.5s var(--ease-out),
+        opacity 0.5s var(--ease-out);
+    }
+    :global(.js) .dock:not(.is-on) {
+      transform: translateY(calc(100% + 24px));
+      opacity: 0;
+      pointer-events: none;
     }
     .dock .caps {
       font-size: 0.8125rem;
@@ -852,9 +901,6 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
   }
 
   @media (max-width: 479px) {
-    .topline-more {
-      display: none;
-    }
     .topline-hours {
       font-size: 0.6875rem;
       letter-spacing: 0.22em;

@@ -59,6 +59,7 @@
 }
 
 html {
+  overflow-x: clip;
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
   scroll-padding-top: 24px;
@@ -67,7 +68,7 @@ html {
 body {
   margin: 0;
   background-color: var(--cream);
-  background-image: linear-gradient(rgb(250 241 214 / 0.72), rgb(250 241 214 / 0.72)), url('/img/granito-cream.webp');
+  background-image: linear-gradient(rgb(250 241 214 / 0.42), rgb(250 241 214 / 0.42)), url('/img/granito-cream.webp');
   background-size: auto, 900px auto;
   color: var(--ink);
   font-family: var(--f-text);
