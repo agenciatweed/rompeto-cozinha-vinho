@@ -90,8 +90,13 @@ export const menus = [
     pdf: '/cardapios/carta-vinhos.pdf',
     items: [
       { name: 'Lírica Brut', desc: 'Hermann · Serra do Sudeste, RS · Chardonnay · 120ml', price: '38' },
+      { name: 'Alvarinho Jovem 2026', desc: 'Hermann · Serra do Sudeste, RS · Alvarinho · 120ml', price: '37' },
+      { name: 'Stoneburn Riesling 2023', desc: "Hunter's Wines · Marlborough, Nova Zelândia · Riesling · 120ml", price: '57' },
       { name: 'Chablis Vieilles Vignes 2023', desc: 'Domaine Alain Geoffroy · Borgonha · 120ml', price: '112' },
+      { name: 'Orange from the Basement 2022', desc: 'Armani · Vêneto, Itália · Pinot Grigio (laranja) · 120ml', price: '75' },
       { name: 'Barbaresco Convivio 2021', desc: 'Bel Colle · Piemonte · Nebbiolo · 120ml', price: '97' },
+      { name: 'Brunello di Montalcino 2021', desc: 'Caprili · Toscana · Sangiovese Grosso · 120ml', price: '199' },
+      { name: "Taylor's Porto Tawny 20 anos", desc: 'Taylor Fladgate · Douro, Portugal · 50ml', price: '71' },
     ],
   },
 ];
