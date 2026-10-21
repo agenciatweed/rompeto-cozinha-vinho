@@ -1,0 +1,2720 @@
+[
+ {
+  "id": "restaurante",
+  "title": "Menu do Restaurante",
+  "blocks": [
+   {
+    "type": "section",
+    "label": "APERITIVOS DE BAR"
+   },
+   {
+    "type": "item",
+    "name": "ALCACHOFRA GRELHADA EM CONSERVA",
+    "price": "49",
+    "desc": "Com azeite EVO. Seleção Savitar - Puglia, Itália"
+   },
+   {
+    "type": "item",
+    "name": "ANCHOVAS DO CANTÁBRICO",
+    "price": "63",
+    "desc": "Pão e manteiga"
+   },
+   {
+    "type": "item",
+    "name": "AZEITONAS",
+    "price": "25",
+    "desc": "Marinadas na casa - Azapa, Gordal e Portuguesa"
+   },
+   {
+    "type": "item",
+    "name": "AZEITONAS BELLA DI CERIGNOLA",
+    "price": "18",
+    "desc": "Com caroço, em azeite EVO. Seleção Savitar - Púglia, Itália"
+   },
+   {
+    "type": "item",
+    "name": "AZEITONAS TAGGIASCA SEM CAROÇO",
+    "price": "25",
+    "desc": "Com azeite EVO. Seleção Savitar - Ligúria, Itália"
+   },
+   {
+    "type": "item",
+    "name": "CAPONATA",
+    "price": "28",
+    "desc": "Feita na casa. Berinjela, abobrinha e pimentões. Pão rústico"
+   },
+   {
+    "type": "item",
+    "name": "GILDA",
+    "price": "19",
+    "desc": "Piparra, anchova e azeitona Gordal. Unidade"
+   },
+   {
+    "type": "item",
+    "name": "LABNEH",
+    "price": "39",
+    "desc": "Coalhada, ervas frescas, pimentas secas e sumagre, uma unidade de cada. Pão rústico"
+   },
+   {
+    "type": "item",
+    "name": "PRESUNTO SAN DANIELE DOP",
+    "price": "45",
+    "desc": "Fatiado na hora"
+   },
+   {
+    "type": "item",
+    "name": "QUEIJOS E EMBUTIDOS (1/2 pessoas)",
+    "price": "58 / 99",
+    "desc": "Seleção rotativa"
+   },
+   {
+    "type": "section",
+    "label": "ENTRADAS"
+   },
+   {
+    "type": "item",
+    "name": "CRUDO",
+    "price": "84",
+    "desc": "Peixe cru, cítricos, mini alcaparras"
+   },
+   {
+    "type": "item",
+    "name": "KIBE CRU",
+    "price": "48",
+    "desc": "Picado na faca, coalhada fresca e babaganoush"
+   },
+   {
+    "type": "item",
+    "name": "BURRATA E BERGAMOTA (2 pessoas)",
+    "price": "99",
+    "desc": ""
+   },
+   {
+    "type": "item",
+    "name": "ASPARGOS",
+    "price": "49",
+    "desc": "Grelhados, com holandaise e limão siciliano"
+   },
+   {
+    "type": "item",
+    "name": "CROQUETA DE SAN DANIELE DOP",
+    "price": "36",
+    "desc": "Maionese de Jerez – 2 unidades"
+   },
+   {
+    "type": "item",
+    "name": "CREME DE ERVILHAS",
+    "price": "48",
+    "desc": ""
+   },
+   {
+    "type": "item",
+    "name": "SALADA GREGA (entrada/principal)",
+    "price": "39 / 64",
+    "desc": "Alface frisée, picles de pepino japonês, queijo de cabra, azeitonas pretas e molho de iogurte"
+   },
+   {
+    "type": "item",
+    "name": "SALADA DE GRÂOS (entrada/principal)",
+    "price": "39 / 64",
+    "desc": "Creme de beterraba, lentilha, quinoa, ervilha torta e queijo Cablanca"
+   },
+   {
+    "type": "section",
+    "label": "PRINCIPAIS"
+   },
+   {
+    "type": "item",
+    "name": "RIGATONI E CAMARÃO ROSA",
+    "price": "138",
+    "desc": "Tomate, pimentão vermelho e chouriço português. Levemente picante"
+   },
+   {
+    "type": "item",
+    "name": "FETUCCINE COM TRUFA",
+    "price": "144",
+    "desc": "Creme leve de trufas Savitar"
+   },
+   {
+    "type": "item",
+    "name": "ORZO (RISONI) AL LIMONE",
+    "price": "89",
+    "desc": "Limão siciliano, ervilhas, burrata cremosa e pistache"
+   },
+   {
+    "type": "item",
+    "name": "PORCO MOURA SCHNITZEL",
+    "price": "129",
+    "desc": "Salada morna e molho caesar"
+   },
+   {
+    "type": "item",
+    "name": "ENTRECOT GRELHADO",
+    "price": "118",
+    "desc": "Batatas fritas, folhas amargas e molho holandaise ou Café de Paris"
+   },
+   {
+    "type": "item",
+    "name": "PEIXE NA CHAPA",
+    "price": "147",
+    "desc": "Purê de batata, aspargos e beurre meunière"
+   },
+   {
+    "type": "item",
+    "name": "BACALHAU",
+    "price": "198",
+    "desc": "Purê de cebolada e pil pil"
+   },
+   {
+    "type": "section",
+    "label": "SOBREMESAS"
+   },
+   {
+    "type": "item",
+    "name": "QUEIJOS",
+    "price": "29",
+    "desc": ""
+   },
+   {
+    "type": "item",
+    "name": "BERGAMOTA",
+    "price": "35",
+    "desc": "Sorbet e tomilho"
+   },
+   {
+    "type": "item",
+    "name": "FLORESTA NEGRA",
+    "price": "49",
+    "desc": "Chocolate 70%, Chantilly e Amarena Fabbri"
+   },
+   {
+    "type": "item",
+    "name": "TARTELETTE DE MAÇÃ",
+    "price": "39",
+    "desc": "Sorvete de caramelo salgado e streusel"
+   },
+   {
+    "type": "item",
+    "name": "TIRAMISÙ",
+    "price": "44",
+    "desc": ""
+   },
+   {
+    "type": "section",
+    "label": "EXTRAS"
+   },
+   {
+    "type": "item",
+    "name": "COUVERT (1 pessoa)",
+    "price": "18",
+    "desc": "Focaccia e manteiga noisette"
+   },
+   {
+    "type": "item",
+    "name": "PÃO EXTRA",
+    "price": "9",
+    "desc": "Rústico ou Focaccia"
+   }
+  ]
+ },
+ {
+  "id": "bar",
+  "title": "Menu de Bar",
+  "blocks": [
+   {
+    "type": "section",
+    "label": "APERITIVOS DE BAR"
+   },
+   {
+    "type": "item",
+    "name": "ALCACHOFRA GRELHADA EM CONSERVA",
+    "price": "49",
+    "desc": "Com azeite EVO. Seleção Savitar - Puglia, Itália"
+   },
+   {
+    "type": "item",
+    "name": "ALCACHOFRA NATURAL EM CONSERVA",
+    "price": "49",
+    "desc": "Com azeite EVO. Seleção Savitar - Puglia, Itália"
+   },
+   {
+    "type": "item",
+    "name": "AZEITONAS BELLA DI CERIGNOLA",
+    "price": "18",
+    "desc": "Com caroço, em azeite EVO. Seleção Savitar - Púglia, Itália"
+   },
+   {
+    "type": "item",
+    "name": "AZEITONAS TAGGIASCA SEM CAROÇO",
+    "price": "25",
+    "desc": "Com azeite EVO. Seleção Savitar - Ligúria, Itália"
+   },
+   {
+    "type": "item",
+    "name": "CAPONATA",
+    "price": "28",
+    "desc": "Feita na casa. Berinjela, abobrinha e pimentões. Pão rústico"
+   },
+   {
+    "type": "item",
+    "name": "GILDA",
+    "price": "19 / unidade",
+    "desc": "Piparra, anchova e azeitona Gordal"
+   },
+   {
+    "type": "item",
+    "name": "LABNEH",
+    "price": "39",
+    "desc": "Coalhada, ervas frescas, pimentas secas e sumagre, uma unidade de cada. Pão rústico"
+   },
+   {
+    "type": "item",
+    "name": "MIX DE NUTS",
+    "price": "19",
+    "desc": "Feito na casa. Noz pecan, amêndoa defumada, castanha do pará, castanha de caju e amendoim"
+   },
+   {
+    "type": "item",
+    "name": "PRESUNTO SAN DANIELE DOP",
+    "price": "45",
+    "desc": "Fatiado na hora"
+   },
+   {
+    "type": "item",
+    "name": "TOMATE CEREJA SEMI SECO",
+    "price": "32",
+    "desc": "Com azeite EVO. Seleção Savitar - Puglia, Itália"
+   },
+   {
+    "type": "item",
+    "name": "PÃO EXTRA",
+    "price": "9",
+    "desc": "Rústico ou Focaccia"
+   }
+  ]
+ },
+ {
+  "id": "bebidas",
+  "title": "Carta de Bebidas",
+  "blocks": [
+   {
+    "type": "section",
+    "label": "COCKTAILS"
+   },
+   {
+    "type": "item",
+    "name": "APEROL SPRITZ",
+    "price": "49",
+    "desc": "Pedrucci Nature, Aperol"
+   },
+   {
+    "type": "item",
+    "name": "BAMBOO",
+    "price": "49",
+    "desc": "Barbadillo Manzanilla, Dolin Dry, Mancino Ambrato Riserva"
+   },
+   {
+    "type": "item",
+    "name": "DRY MARTINI/DIRTY MARTINI",
+    "price": "49 / 58",
+    "desc": "Tanqueray Ten, Dolin Dry"
+   },
+   {
+    "type": "item",
+    "name": "NEGRONI",
+    "price": "49",
+    "desc": "Roku, Campari, Vermutes (blend Rompeto)"
+   },
+   {
+    "type": "item",
+    "name": "HEMINGWAY DAIQUIRI",
+    "price": "49",
+    "desc": "Lamas Apraz, Angostura 5 anos, Luxardo Maraschino, Toranja, Limão"
+   },
+   {
+    "type": "item",
+    "name": "CLOVER CLUB",
+    "price": "49",
+    "desc": "Roku, Framboesa, Hibisco, Limão, Clara de ovo"
+   },
+   {
+    "type": "item",
+    "name": "ENZONI",
+    "price": "49",
+    "desc": "Hendricks, Campari, Uva verde, Limão"
+   },
+   {
+    "type": "item",
+    "name": "PAPER PLANE",
+    "price": "58",
+    "desc": "Makers Mark, Aperol, Amaro Montenegro, Limão"
+   },
+   {
+    "type": "item",
+    "name": "MACUNAÍMA",
+    "price": "39",
+    "desc": "Harmonie Schnaps Balsamo, Fernet Branca, Limão"
+   },
+   {
+    "type": "item",
+    "name": "MARGARITA",
+    "price": "49",
+    "desc": "Espolón Blanco, Cointreau, Limão"
+   },
+   {
+    "type": "item",
+    "name": "PENICILLIN",
+    "price": "49",
+    "desc": "JW Black Label, Laphroig 10 anos, Gengibre, Mel, Limão"
+   },
+   {
+    "type": "item",
+    "name": "BETSY ROSS",
+    "price": "94",
+    "desc": "Alves de Sousa Tawny Special Reserve, Henessy VSOP, Cointreau"
+   },
+   {
+    "type": "item",
+    "name": "CHARLESTON",
+    "price": "98",
+    "desc": "Bulleit, Justinos Boal 10 Anos, Angostura"
+   },
+   {
+    "type": "item",
+    "name": "ESPRESSO MARTINI",
+    "price": "49",
+    "desc": "Ketel One, Cabra Lab, Espresso Illy"
+   },
+   {
+    "type": "section",
+    "label": "MOCKTAILS"
+   },
+   {
+    "type": "item",
+    "name": "SPRITZ",
+    "price": "49",
+    "desc": "Miden Laranja 0%, Don Bonifácio Brut 0%"
+   },
+   {
+    "type": "item",
+    "name": "CHAI REFRESHER",
+    "price": "39",
+    "desc": "Chai, Abacaxi, Leite de coco"
+   },
+   {
+    "type": "item",
+    "name": "LADY IN RED",
+    "price": "39",
+    "desc": "Miden Laranja 0%, Hibisco, Limão, Clara de ovo"
+   },
+   {
+    "type": "section",
+    "label": "APERITIVOS & AMARI"
+   },
+   {
+    "type": "group",
+    "label": "Vermutes"
+   },
+   {
+    "type": "item",
+    "name": "CARPANO ROSSO",
+    "price": "28",
+    "desc": "Vermute italiano · produzido na Argentina"
+   },
+   {
+    "type": "item",
+    "name": "NOILLY PRAT ORIGINAL DRY",
+    "price": "28",
+    "desc": "França · Vermute branco"
+   },
+   {
+    "type": "item",
+    "name": "PUNT E MES VERMOUTH ORIGINALE",
+    "price": "32",
+    "desc": "Vermouth italiano · produzido na Argentina"
+   },
+   {
+    "type": "item",
+    "name": "MANCINO VERMOUTH AMBRATO",
+    "price": "39",
+    "desc": "Itália · Vermute branco"
+   },
+   {
+    "type": "item",
+    "name": "CARPANO ANTICA FORMULA",
+    "price": "49",
+    "desc": "Itália · Vermute"
+   },
+   {
+    "type": "group",
+    "label": "Amari & Bitters"
+   },
+   {
+    "type": "item",
+    "name": "CYNAR",
+    "price": "25",
+    "desc": "Amaro italiano de alcachofra · produzido na Argentina"
+   },
+   {
+    "type": "item",
+    "name": "CAMPARI",
+    "price": "25",
+    "desc": "Bitter italiano · produzido no Brasil"
+   },
+   {
+    "type": "item",
+    "name": "APEROL",
+    "price": "25",
+    "desc": "Aperitivo italiano · produzido no Brasil"
+   },
+   {
+    "type": "item",
+    "name": "FABBRI MARENDRY BITTER",
+    "price": "28",
+    "desc": "Itália · Bitter de amarena e cítricos"
+   },
+   {
+    "type": "item",
+    "name": "FERNET-BRANCA",
+    "price": "35",
+    "desc": "Fernet italiano · produzido na Argentina"
+   },
+   {
+    "type": "item",
+    "name": "UNDERBERG",
+    "price": "39",
+    "desc": "Alemanha · Kräuter-Digestif · 20ml"
+   },
+   {
+    "type": "item",
+    "name": "AVERNA",
+    "price": "39",
+    "desc": "Itália · Amaro"
+   },
+   {
+    "type": "item",
+    "name": "LUXARDO BITTER BIANCO",
+    "price": "42",
+    "desc": "Itália · Bitter / Aperitivo"
+   },
+   {
+    "type": "item",
+    "name": "TORO AMARO",
+    "price": "49",
+    "desc": "Itália · Amaro"
+   },
+   {
+    "type": "item",
+    "name": "ANGOSTURA AMARO",
+    "price": "49",
+    "desc": "Trinidad e Tobago · Amaro"
+   },
+   {
+    "type": "item",
+    "name": "MONTENEGRO AMARO",
+    "price": "55",
+    "desc": "Itália · Amaro"
+   },
+   {
+    "type": "section",
+    "label": "AGUARDENTES"
+   },
+   {
+    "type": "group",
+    "label": "Vínicas & De Bagaço"
+   },
+   {
+    "type": "item",
+    "name": "CAPEL PISCO RESERVADO MOAI",
+    "price": "35",
+    "desc": "Chile · Pisco"
+   },
+   {
+    "type": "item",
+    "name": "ALIANÇA VELHA",
+    "price": "39",
+    "desc": "Portugal · Aguardente vínica velha"
+   },
+   {
+    "type": "item",
+    "name": "NONINO GRAPPA 100°",
+    "price": "39",
+    "desc": "Itália · Grappa"
+   },
+   {
+    "type": "item",
+    "name": "VECCHIA ROMAGNA ETICHETTA NERA",
+    "price": "49",
+    "desc": "Itália · Brandy"
+   },
+   {
+    "type": "item",
+    "name": "METAXA 12 STARS",
+    "price": "49",
+    "desc": "Grécia · Brandy"
+   },
+   {
+    "type": "item",
+    "name": "HENNESSY V.S.O.P.",
+    "price": "72",
+    "desc": "Cognac, França"
+   },
+   {
+    "type": "item",
+    "name": "HENNESSY XO",
+    "price": "295 / 164",
+    "desc": "Cognac, França · 50 / 25ml"
+   },
+   {
+    "type": "item",
+    "name": "TESSERON LOT NO. 76 XO TRADITION",
+    "price": "275 / 147",
+    "desc": "Cognac, França · 50 / 25ml"
+   },
+   {
+    "type": "item",
+    "name": "TESSERON LOT NO. 29 XO EXCEPTION",
+    "price": "893 / 495",
+    "desc": "Cognac, França · 50 / 25ml"
+   },
+   {
+    "type": "group",
+    "label": "De Frutas"
+   },
+   {
+    "type": "item",
+    "name": "SCHLADERER HIMBEERGEIST",
+    "price": "48",
+    "desc": "Alemanha · Eau-de-vie de framboesa"
+   },
+   {
+    "type": "item",
+    "name": "MASSENEZ POIRE WILLIAMS",
+    "price": "65",
+    "desc": "França · Eau-de-vie de pera Williams"
+   },
+   {
+    "type": "item",
+    "name": "CHÂTEAU DU BREUIL CALVADOS VSOP",
+    "price": "68",
+    "desc": "Normandia, França · Calvados"
+   },
+   {
+    "type": "section",
+    "label": "WHISKY & WHISKEY"
+   },
+   {
+    "type": "group",
+    "label": "American Whiskey"
+   },
+   {
+    "type": "item",
+    "name": "SAZERAC RYE",
+    "price": "38",
+    "desc": "Kentucky, EUA · Straight Rye Whiskey"
+   },
+   {
+    "type": "item",
+    "name": "BULLEIT BOURBON",
+    "price": "40",
+    "desc": "Kentucky, EUA · Straight Bourbon Whiskey"
+   },
+   {
+    "type": "item",
+    "name": "MAKER’S MARK",
+    "price": "40",
+    "desc": "Kentucky, EUA · Straight Bourbon Whisky"
+   },
+   {
+    "type": "item",
+    "name": "JACK DANIEL’S BONDED RYE",
+    "price": "48",
+    "desc": "Tennessee, EUA · Bottled-in-Bond Rye Whiskey"
+   },
+   {
+    "type": "group",
+    "label": "Scotch Whisky · Blends"
+   },
+   {
+    "type": "item",
+    "name": "JOHNNIE WALKER BLACK LABEL 12",
+    "price": "40",
+    "desc": "Escócia · Blended Scotch Whisky"
+   },
+   {
+    "type": "item",
+    "name": "JOHNNIE WALKER GREEN LABEL 15",
+    "price": "75",
+    "desc": "Escócia · Blended Malt Scotch Whisky"
+   },
+   {
+    "type": "item",
+    "name": "JOHNNIE WALKER BLUE LABEL",
+    "price": "195",
+    "desc": "Escócia · Blended Scotch Whisky"
+   },
+   {
+    "type": "group",
+    "label": "Scotch Whisky · Single Malts"
+   },
+   {
+    "type": "item",
+    "name": "GLENFIDDICH 12",
+    "price": "74",
+    "desc": "Speyside, Escócia · Single Malt Scotch Whisky"
+   },
+   {
+    "type": "item",
+    "name": "ARDBEG TEN",
+    "price": "90",
+    "desc": "Islay, Escócia · Single Malt Scotch Whisky"
+   },
+   {
+    "type": "item",
+    "name": "LAPHROAIG 10",
+    "price": "98",
+    "desc": "Islay, Escócia · Single Malt Scotch Whisky"
+   },
+   {
+    "type": "item",
+    "name": "THE MACALLAN 12",
+    "price": "125",
+    "desc": "Speyside, Escócia · Single Malt Scotch Whisky"
+   },
+   {
+    "type": "item",
+    "name": "GLENMORANGIE SIGNET",
+    "price": "295 / 164",
+    "desc": "Highlands, Escócia · Single Malt Scotch Whisky · 50 / 25ml"
+   },
+   {
+    "type": "section",
+    "label": "LICORES"
+   },
+   {
+    "type": "item",
+    "name": "PROF. RUSSO NUCILLO DI SORRENTO",
+    "price": "32",
+    "desc": "Itália · Nocino de noz verde"
+   },
+   {
+    "type": "item",
+    "name": "AMARGUINHA",
+    "price": "34",
+    "desc": "Portugal · Licor de amêndoa amarga"
+   },
+   {
+    "type": "item",
+    "name": "VILLA MASSA LIMONCELLO",
+    "price": "36",
+    "desc": "Itália · Limoncello"
+   },
+   {
+    "type": "item",
+    "name": "MASSENEZ CRÈME DE CASSIS DE DIJON",
+    "price": "38",
+    "desc": "França · Crème de Cassis"
+   },
+   {
+    "type": "item",
+    "name": "DRAMBUIE",
+    "price": "38",
+    "desc": "Escócia · Licor de whisky e ervas"
+   },
+   {
+    "type": "item",
+    "name": "COINTREAU",
+    "price": "38",
+    "desc": "França · Licor de laranja"
+   },
+   {
+    "type": "item",
+    "name": "LICOR 43",
+    "price": "39",
+    "desc": "Espanha · Licor de ervas"
+   },
+   {
+    "type": "item",
+    "name": "DE KUYPER ELDERFLOWER LIQUEUR",
+    "price": "39",
+    "desc": "Países Baixos · Licor de flor de sabugueiro"
+   },
+   {
+    "type": "item",
+    "name": "DISARONNO ORIGINALE",
+    "price": "39",
+    "desc": "Itália · Amaretto"
+   },
+   {
+    "type": "item",
+    "name": "CHOYA UMESHU",
+    "price": "40",
+    "desc": "Japão · Licor de Yuzu"
+   },
+   {
+    "type": "item",
+    "name": "LUXARDO MARASCHINO ORIGINALE",
+    "price": "41",
+    "desc": "Itália · Maraschino"
+   },
+   {
+    "type": "item",
+    "name": "MANDARINE NAPOLÉON",
+    "price": "48",
+    "desc": "Bélgica · Licor de tangerina / Cognac"
+   },
+   {
+    "type": "item",
+    "name": "VILA DAS RAINHAS GINJA D’ÓBIDOS",
+    "price": "48",
+    "desc": "Portugal · Ginja"
+   },
+   {
+    "type": "item",
+    "name": "TORO CENTERBA TORO FORTE",
+    "price": "69",
+    "desc": "Itália · Licor herbal"
+   },
+   {
+    "type": "section",
+    "label": "CACHAÇA"
+   },
+   {
+    "type": "item",
+    "name": "MATODENTRO PRATA",
+    "price": "25",
+    "desc": "Brasil · Cachaça clara"
+   },
+   {
+    "type": "item",
+    "name": "TERRA DOURADA OURO",
+    "price": "27",
+    "desc": "Brasil · Cachaça envelhecida"
+   },
+   {
+    "type": "item",
+    "name": "HARMONIE SCHNAPS EXTRA PREMIUM 4 MADEIRAS",
+    "price": "28",
+    "desc": "Brasil · Cachaça envelhecida · 4 madeiras"
+   },
+   {
+    "type": "item",
+    "name": "ARMAZÉM VIEIRA SAFIRA",
+    "price": "29",
+    "desc": "Brasil · Cachaça envelhecida"
+   },
+   {
+    "type": "item",
+    "name": "ALZIRA ORIGINAL",
+    "price": "29",
+    "desc": "Brasil · Cachaça"
+   },
+   {
+    "type": "item",
+    "name": "CÊ DOUBLE WOOD",
+    "price": "44",
+    "desc": "Brasil · Cachaça envelhecida"
+   },
+   {
+    "type": "group",
+    "label": "Gin"
+   },
+   {
+    "type": "item",
+    "name": "HENDRICK’S",
+    "price": "35",
+    "desc": "Escócia · Gin"
+   },
+   {
+    "type": "item",
+    "name": "LANGLEY’S OLD TOM",
+    "price": "36",
+    "desc": "Inglaterra · Old Tom Gin"
+   },
+   {
+    "type": "item",
+    "name": "ROKU",
+    "price": "38",
+    "desc": "Japão · Gin"
+   },
+   {
+    "type": "item",
+    "name": "MARTIN MILLER’S",
+    "price": "39",
+    "desc": "Inglaterra · Gin"
+   },
+   {
+    "type": "item",
+    "name": "FABBRI DRY GIN",
+    "price": "42",
+    "desc": "Itália · Dry Gin"
+   },
+   {
+    "type": "item",
+    "name": "THE BOTANIST ISLAY DRY GIN",
+    "price": "42",
+    "desc": "Islay, Escócia · Dry Gin"
+   },
+   {
+    "type": "item",
+    "name": "TANQUERAY NO. TEN",
+    "price": "44",
+    "desc": "Escócia · Gin"
+   },
+   {
+    "type": "item",
+    "name": "GIN MARE",
+    "price": "49",
+    "desc": "Espanha · Gin"
+   },
+   {
+    "type": "section",
+    "label": "RUM · TEQUILA · VODKA"
+   },
+   {
+    "type": "group",
+    "label": "Rum"
+   },
+   {
+    "type": "item",
+    "name": "LAMAS APRAZ CRISTAL",
+    "price": "25",
+    "desc": "Brasil · Rum branco"
+   },
+   {
+    "type": "item",
+    "name": "ANGOSTURA 5 YEAR OLD",
+    "price": "42",
+    "desc": "Trinidad e Tobago · Rum envelhecido"
+   },
+   {
+    "type": "item",
+    "name": "MOUNT GAY XO",
+    "price": "105",
+    "desc": "Barbados · Rum envelhecido"
+   },
+   {
+    "type": "group",
+    "label": "Tequila"
+   },
+   {
+    "type": "item",
+    "name": "ESPOLÒN TEQUILA BLANCO",
+    "price": "35",
+    "desc": "México · Tequila Blanco · 100% agave"
+   },
+   {
+    "type": "item",
+    "name": "JOSE CUERVO TRADICIONAL REPOSADO",
+    "price": "40",
+    "desc": "México · Tequila Reposado"
+   },
+   {
+    "type": "group",
+    "label": "Vodka"
+   },
+   {
+    "type": "item",
+    "name": "KETEL ONE VODKA",
+    "price": "32",
+    "desc": "Países Baixos · Vodka"
+   },
+   {
+    "type": "item",
+    "name": "BELUGA VODKA",
+    "price": "68",
+    "desc": "Montenegro · Vodka"
+   },
+   {
+    "type": "section",
+    "label": "SOFT DRINKS"
+   },
+   {
+    "type": "item",
+    "name": "ÁGUA PRATA (300ml)",
+    "price": "12",
+    "desc": ""
+   },
+   {
+    "type": "item",
+    "name": "ÁGUA SAN PELLEGRINO (505ml)",
+    "price": "38",
+    "desc": ""
+   },
+   {
+    "type": "item",
+    "name": "ÁGUA AQUA PANNA (500ml)",
+    "price": "38",
+    "desc": ""
+   },
+   {
+    "type": "item",
+    "name": "COCA COLA / COCA COLA ZERO (250ml)",
+    "price": "10",
+    "desc": ""
+   },
+   {
+    "type": "item",
+    "name": "GUARANÁ / GUARANÁ ZERO (350ml)",
+    "price": "10",
+    "desc": ""
+   },
+   {
+    "type": "item",
+    "name": "TÔNICA / TÔNICA ZERO (350ml)",
+    "price": "10",
+    "desc": ""
+   },
+   {
+    "type": "section",
+    "label": "OUTROS"
+   },
+   {
+    "type": "item",
+    "name": "HEINEKEN / HEINEKEN ZERO",
+    "price": "16",
+    "desc": ""
+   },
+   {
+    "type": "item",
+    "name": "CAFÉ ESPRESSO ILLY",
+    "price": "12",
+    "desc": ""
+   }
+  ]
+ },
+ {
+  "id": "vinhos",
+  "title": "Carta de Vinhos",
+  "blocks": [
+   {
+    "type": "part",
+    "label": "Vinhos em Taça"
+   },
+   {
+    "type": "section",
+    "label": "PARA COMEÇAR",
+    "note": "50ml"
+   },
+   {
+    "type": "item",
+    "name": "BARBADILLO MANZANILLA",
+    "price": "21",
+    "desc": "BODEGAS BARBADILLO · Manzanilla-Sanlúcar de Barrameda, Andaluzia, Espanha · Palomino Fino"
+   },
+   {
+    "type": "item",
+    "name": "HIDALGO FINO",
+    "price": "28",
+    "desc": "BODEGAS HIDALGO LA GITANA · Jerez-Xérès-Sherry, Andaluzia, Espanha · Palomino Fino"
+   },
+   {
+    "type": "item",
+    "name": "JUSTINO’S SERCIAL 10 ANOS",
+    "price": "50",
+    "desc": "JUSTINO’S MADEIRA WINES · Madeira DOP, Portugal · Sercial"
+   },
+   {
+    "type": "section",
+    "label": "ESPUMANTES",
+    "note": "120ml"
+   },
+   {
+    "type": "item",
+    "name": "PEDRUCCI ROSÉ BRUT",
+    "price": "34",
+    "desc": "PEDRUCCI · Garibaldi, Serra Gaúcha, RS, Brasil · Pinot Noir, Merlot e Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "LÍRICA BRUT",
+    "price": "38",
+    "desc": "HERMANN · Pinheiro Machado, Serra do Sudeste, RS, Brasil · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "SELENA NATURE 25 LUAS",
+    "price": "54",
+    "desc": "DON BONIFÁCIO · Caxias do Sul, Serra Gaúcha, RS, Brasil · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "MAXIMUM BLANC DE BLANCS",
+    "price": "90",
+    "desc": "FERRARI · Trentodoc, Trentino-Alto Adige, Itália · Chardonnay"
+   },
+   {
+    "type": "section",
+    "label": "ROSÉS",
+    "note": "120ml"
+   },
+   {
+    "type": "item",
+    "name": "BOSSA ROSÉ 2025",
+    "price": "34",
+    "desc": "HERMANN · Pinheiro Machado, Serra do Sudeste, RS, Brasil · Pinot Noir"
+   },
+   {
+    "type": "section",
+    "label": "BRANCOS",
+    "note": "120ml"
+   },
+   {
+    "type": "item",
+    "name": "DÁDIVAS 2022",
+    "price": "34",
+    "desc": "LÍDIO CARRARO · Encruzilhada do Sul, Serra do Sudeste, RS, Brasil · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "ALVARINHO JOVEM 2026",
+    "price": "37",
+    "desc": "HERMANN · Pinheiro Machado, Serra do Sudeste, RS, Brasil · Alvarinho"
+   },
+   {
+    "type": "item",
+    "name": "CORVARA PINOT GRIGIO 2025",
+    "price": "52",
+    "desc": "ARMANI · Valdadige, Trentino-Alto Adige, Itália · Pinot Grigio"
+   },
+   {
+    "type": "item",
+    "name": "RAKA SAUVIGNON BLANC 2024",
+    "price": "52",
+    "desc": "RAKA · Klein River, Western Cape, África do Sul · Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "DE SANGRE WHITE BLEND 2024",
+    "price": "55",
+    "desc": "LUIGI BOSCA · Gualtallary, Vale do Uco, Mendoza, Argentina · Chardonnay, Sémillon e Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "STONEBURN RIESLING 2023",
+    "price": "57",
+    "desc": "HUNTER’S WINES · Marlborough, Nova Zelândia · Riesling"
+   },
+   {
+    "type": "item",
+    "name": "RETA SÉMILLON 2024",
+    "price": "67",
+    "desc": "MARCELO RETAMAL · Itata, Chile · Sémillon"
+   },
+   {
+    "type": "item",
+    "name": "MÂCON-FUISSÉ “VERS CHÂNES” 2023",
+    "price": "103",
+    "desc": "SÉBASTIEN GIROUX · Mâcon-Fuissé, Mâconnais, Borgonha, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "CHABLIS VIEILLES VIGNES 2023",
+    "price": "112",
+    "desc": "DOMAINE ALAIN GEOFFROY · Chablis, Yonne, Borgonha, França · Chardonnay"
+   },
+   {
+    "type": "section",
+    "label": "LARANJAS",
+    "note": "120ml"
+   },
+   {
+    "type": "item",
+    "name": "ORANGE FROM THE BASEMENT 2022",
+    "price": "75",
+    "desc": "ARMANI · Vêneto, Itália · Pinot Grigio"
+   },
+   {
+    "type": "section",
+    "label": "TINTOS",
+    "note": "120ml"
+   },
+   {
+    "type": "item",
+    "name": "CIVIS PINOT NOIR 2025",
+    "price": "34",
+    "desc": "TERRANOBLE · Vale de Casablanca, Chile · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "N’TERRA NEGROAMARO 2025",
+    "price": "34",
+    "desc": "PIETRAPURA · Salento, Puglia, Itália · Negroamaro"
+   },
+   {
+    "type": "item",
+    "name": "RIOJA DE MACERACIÓN CARBÓNICA 2024",
+    "price": "42",
+    "desc": "LUIS CAÑAS · Rioja Alavesa, Espanha · Tempranillo"
+   },
+   {
+    "type": "item",
+    "name": "ALTA YARÍ CABERNET FRANC RESERVA 2024",
+    "price": "42",
+    "desc": "ALTA YARí · Gualtallary, Vale do Uco, Mendoza, Argentina · Cabernet Franc"
+   },
+   {
+    "type": "item",
+    "name": "MEYMANS 2021",
+    "price": "55",
+    "desc": "KILIKANOON · Clare Valley, Austrália · Shiraz"
+   },
+   {
+    "type": "item",
+    "name": "DE SANGRE MALBEC D.O.C. LUJÁN DE CUYO 2023",
+    "price": "59",
+    "desc": "LUIGI BOSCA · Luján de Cuyo, Mendoza, Argentina · Malbec"
+   },
+   {
+    "type": "item",
+    "name": "EUGEN MÜLLER SPÄTBURGUNDER 2019",
+    "price": "71",
+    "desc": "EUGEN MÜLLER · Pfalz, Alemanha · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "VONTADE 2022",
+    "price": "71",
+    "desc": "G2 - GONZALO GUZMÁN · Alto Maipo, Chile · Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "BARBARESCO CONVIVIO 2021",
+    "price": "97",
+    "desc": "BEL COLLE · Barbaresco, Piemonte, Itália · Nebbiolo"
+   },
+   {
+    "type": "item",
+    "name": "SPY - SAN PEDRO DE YACOCHUYA 2023",
+    "price": "102",
+    "desc": "YACOCHUYA · Cafayate, Vales Calchaquíes, Salta, Argentina · Malbec e Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "CHIANTI CLASSICO 2022",
+    "price": "112",
+    "desc": "ISOLE E OLENA · Chianti Classico, Toscana, Itália · Sangiovese, Canaiolo e Syrah"
+   },
+   {
+    "type": "item",
+    "name": "CAMPO AL MARE BOLGHERI 2023",
+    "price": "133",
+    "desc": "TENUTE FOLONARI · Bolgheri, Toscana, Itália · Merlot, Cabernet Sauvignon, Cabernet Franc e outras"
+   },
+   {
+    "type": "item",
+    "name": "LUIS CAÑAS GRAN RESERVA 2016",
+    "price": "173",
+    "desc": "LUIS CAÑAS · Rioja Alavesa, Espanha · Tempranillo e Graciano"
+   },
+   {
+    "type": "item",
+    "name": "SANTENAY “CHARMES” 2022",
+    "price": "195",
+    "desc": "DOMAINE ROGER BELLAND · Santenay, Côte de Beaune, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "BRUNELLO DI MONTALCINO 2021",
+    "price": "199",
+    "desc": "CAPRILI · Brunello di Montalcino, Toscana, Itália · Sangiovese Grosso"
+   },
+   {
+    "type": "item",
+    "name": "BAROLO 2019",
+    "price": "327",
+    "desc": "PIO CESARE · Barolo, Piemonte, Itália · Nebbiolo"
+   },
+   {
+    "type": "section",
+    "label": "PARA TERMINAR",
+    "note": "50ml"
+   },
+   {
+    "type": "item",
+    "name": "CHÂTEAU DE GÉRAUD 2014",
+    "price": "32",
+    "desc": "VIGNOBLES GÉRARDIN · Monbazillac, Bergerac, França · Sémillon, Sauvignon Blanc e Muscadelle"
+   },
+   {
+    "type": "item",
+    "name": "TERRAZAS DE LOS ANDES PETIT MANSENG 2020",
+    "price": "58",
+    "desc": "TERRAZAS DE LOS ANDES · Vale de Uco, Mendoza, Argentina · Petit Manseng"
+   },
+   {
+    "type": "item",
+    "name": "PAJZOS TOKAJI ASZÚ 5 PUTTONYOS 2017",
+    "price": "105",
+    "desc": "CHÂTEAU PAJZOS · Tokaj-Hegyalja, Hungria · Furmint, Zéta e Hárslevelű"
+   },
+   {
+    "type": "item",
+    "name": "ALAMBRE MOSCATEL ROXO 5 ANOS 2021",
+    "price": "29",
+    "desc": "JOSÉ MARIA DA FONSECA · Moscatel Roxo de Setúbal DOP, Península de Setúbal, Portugal · Moscatel Roxo"
+   },
+   {
+    "type": "item",
+    "name": "ALAMBRE MOSCATEL DE SETÚBAL 20 ANOS",
+    "price": "58",
+    "desc": "JOSÉ MARIA DA FONSECA · Moscatel de Setúbal DOP, Península de Setúbal, Portugal · Moscatel de Setúbal"
+   },
+   {
+    "type": "item",
+    "name": "CALDAS WHITE PORTO SPECIAL RESERVE",
+    "price": "41",
+    "desc": "ALVES DE SOUSA · Porto DOC, Douro, Portugal · Malvasia Fina, Gouveio e Viosinho"
+   },
+   {
+    "type": "item",
+    "name": "VIEIRA DE SOUSA COLHEITA 2003",
+    "price": "61",
+    "desc": "VIEIRA DE SOUSA · Porto DOC, Douro, Portugal · Touriga Nacional, Touriga Francesa e Tinta Roriz"
+   },
+   {
+    "type": "item",
+    "name": "QUINTA DA GAIVOSA PORTO 10 ANOS",
+    "price": "67",
+    "desc": "ALVES DE SOUSA · Porto DOC, Douro, Portugal · Touriga Franca, Tinto Cão e Tinta Barroca"
+   },
+   {
+    "type": "item",
+    "name": "TAYLOR’S PORTO TAWNY 20 ANOS",
+    "price": "71",
+    "desc": "TAYLOR FLADGATE · Porto DOC, Douro, Portugal · Castas tintas tradicionais do Douro"
+   },
+   {
+    "type": "item",
+    "name": "ALVES DE SOUSA PORTO VINTAGE 2011",
+    "price": "74",
+    "desc": "ALVES DE SOUSA · Porto DOC, Douro, Portugal · Touriga Franca, Touriga Nacional e Sousão"
+   },
+   {
+    "type": "item",
+    "name": "JUSTINO’S MADEIRA BOAL 10 ANOS",
+    "price": "50",
+    "desc": "JUSTINO’S MADEIRA WINES · Madeira DOP, Portugal · Boal"
+   },
+   {
+    "type": "part",
+    "label": "Garrafas"
+   },
+   {
+    "type": "section",
+    "label": "ESPUMANTES"
+   },
+   {
+    "type": "group",
+    "label": "Leves, Frescos e Versáteis"
+   },
+   {
+    "type": "item",
+    "name": "PEDRUCCI ROSÉ BRUT",
+    "price": "137 / 34",
+    "desc": "PEDRUCCI · Garibaldi, Serra Gaúcha, RS, Brasil · Pinot Noir, Merlot e Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "FAUSTO BRUT",
+    "price": "138",
+    "desc": "PIZZATO · Guaporé, Serra Gaúcha, RS, Brasil · Chardonnay e Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "LÍRICA BRUT",
+    "price": "191 / 38",
+    "desc": "HERMANN · Pinheiro Machado, Serra do Sudeste, RS, Brasil · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "EXTRA BRUT BLANC DE BLANCS",
+    "price": "214",
+    "desc": "GUATAMBU · Dom Pedrito, Campanha Gaúcha, RS, Brasil · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "ARMANI PROSECCO",
+    "price": "260",
+    "desc": "ARMANI · Prosecco DOC, Vêneto, Itália · Glera"
+   },
+   {
+    "type": "item",
+    "name": "PRIMA PERLA CRÉMANT BRUT",
+    "price": "278",
+    "desc": "PAUL MAS · Crémant de Limoux, Languedoc, França · Chardonnay, Chenin Blanc, Pinot Noir e outras"
+   },
+   {
+    "type": "group",
+    "label": "Gastronômicos e de Celebração"
+   },
+   {
+    "type": "item",
+    "name": "LÍRICA CRUA ROSÉ",
+    "price": "191",
+    "desc": "HERMANN · Pinheiro Machado, Serra do Sudeste, RS, Brasil · Pinot Noir e Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "SELENA NATURE 25 LUAS",
+    "price": "271 / 54",
+    "desc": "DON BONIFÁCIO · Caxias do Sul, Serra Gaúcha, RS, Brasil · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "PEDRUCCI MILLÉSIME 2021",
+    "price": "397",
+    "desc": "PEDRUCCI · Garibaldi, Serra Gaúcha, RS, Brasil · Chardonnay, Pinot Noir e Riesling Itálico"
+   },
+   {
+    "type": "item",
+    "name": "MAXIMUM BLANC DE BLANCS",
+    "price": "448 / 90",
+    "desc": "FERRARI · Trentodoc, Trentino-Alto Adige, Itália · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "DE NIT ROSÉ 2021",
+    "price": "564",
+    "desc": "RAVENTÓS I BLANC · Conca del Riu Anoia, Penedès, Catalunha, Espanha · Xarel-lo, Macabeu, Parellada e outras"
+   },
+   {
+    "type": "item",
+    "name": "PERLÉ EXTRA BRUT 2018",
+    "price": "664",
+    "desc": "FERRARI · Trentodoc, Trentino-Alto Adige, Itália · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "BLANC DE NOIRS BRUT GRAND CRU",
+    "price": "991",
+    "desc": "BARNAUT · Bouzy, Montagne de Reims, Champagne, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "EXTRA BRUT EXTRA OLD ÉDITION 4",
+    "price": "1.199",
+    "desc": "VEUVE CLICQUOT · Champagne, França · Pinot Noir, Chardonnay e Meunier"
+   },
+   {
+    "type": "item",
+    "name": "RUINART ROSÉ",
+    "price": "1.299",
+    "desc": "RUINART · Champagne, França · Chardonnay e Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "GRAND VINTAGE COLLECTION 2000",
+    "price": "1.699",
+    "desc": "MOËT & CHANDON · Champagne, França · Chardonnay, Pinot Noir e Meunier"
+   },
+   {
+    "type": "item",
+    "name": "GIULIO FERRARI RISERVA DEL FONDATORE 2009",
+    "price": "2.939",
+    "desc": "FERRARI · Trentodoc, Trentino-Alto Adige, Itália · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "DOM PÉRIGNON VINTAGE 2017",
+    "price": "3.029",
+    "desc": "DOM PÉRIGNON · Champagne, França · Chardonnay e Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "GRANDE CUVÉE 173ÈME ÉDITION",
+    "price": "3.529",
+    "desc": "KRUG · Champagne, França · Pinot Noir, Chardonnay e Meunier"
+   },
+   {
+    "type": "section",
+    "label": "ROSÉS",
+    "note": ""
+   },
+   {
+    "type": "group",
+    "label": "Leves, Frescos e Descontraídos"
+   },
+   {
+    "type": "item",
+    "name": "BOSSA ROSÉ 2025",
+    "price": "148 / 34",
+    "desc": "HERMANN · Pinheiro Machado, Serra do Sudeste, RS, Brasil · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "ROMANCE ROSÉ 2024",
+    "price": "283",
+    "desc": "CHÂTEAU DE BERNE · Côtes de Provence, Provence, França · Grenache, Cinsault e Syrah"
+   },
+   {
+    "type": "section",
+    "label": "BRANCOS",
+    "note": ""
+   },
+   {
+    "type": "group",
+    "label": "Leves, Frescos e Minerais"
+   },
+   {
+    "type": "item",
+    "name": "LA LINDA CHARDONNAY 2025",
+    "price": "138",
+    "desc": "LUIGI BOSCA · Luján de Cuyo e Maipú, Mendoza, Argentina · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "DÁDIVAS 2022",
+    "price": "166 / 34",
+    "desc": "LÍDIO CARRARO · Encruzilhada do Sul, Serra do Sudeste, RS, Brasil · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "ALVARINHO JOVEM 2026",
+    "price": "187 / 37",
+    "desc": "HERMANN · Pinheiro Machado, Serra do Sudeste, RS, Brasil · Alvarinho"
+   },
+   {
+    "type": "item",
+    "name": "MUROS ANTIGOS ESCOLHA 2024",
+    "price": "212",
+    "desc": "ANSELMO MENDES · Vinho Verde, Minho, Portugal · Loureiro, Avesso e Alvarinho"
+   },
+   {
+    "type": "item",
+    "name": "PETITE CHARDONNAY 2024",
+    "price": "218",
+    "desc": "GLEN CARLOU · Paarl, Western Cape, África do Sul · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "ALGARROBO CHARDONNAY 2024",
+    "price": "228",
+    "desc": "TERRANOBLE · Vale de Casablanca, Chile · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "MUSCADET SÈVRE-ET-MAINE SUR LIE 2022",
+    "price": "257",
+    "desc": "CHÂTEAU DES GILLIÈRES · Muscadet Sèvre-et-Maine, Loire, França · Melon"
+   },
+   {
+    "type": "item",
+    "name": "CORVARA PINOT GRIGIO 2023",
+    "price": "260 / 52",
+    "desc": "ARMANI · Valdadige, Trentino-Alto Adige, Itália · Pinot Grigio"
+   },
+   {
+    "type": "item",
+    "name": "BOUZA ALBARIÑO 2025",
+    "price": "287",
+    "desc": "BOUZA · Montevidéu e Canelones, Uruguai · Albariño"
+   },
+   {
+    "type": "item",
+    "name": "CASAL DI SERRA VERDICCHIO DEI CASTELLI DI JESI CLASSICO SUPERIORE 2023",
+    "price": "317",
+    "desc": "UMANI RONCHI · Castelli di Jesi, Marche, Itália · Verdicchio"
+   },
+   {
+    "type": "item",
+    "name": "BOURGOGNE CHARDONNAY 2022",
+    "price": "363",
+    "desc": "NUITON-BEAUNOY (CAVE DES HAUTES-CÔTES) · Borgonha, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "LÖSS GRÜNER VELTLINER 2023",
+    "price": "400",
+    "desc": "HIEDLER · Langenlois, Kamptal, Áustria · Grüner Veltliner"
+   },
+   {
+    "type": "item",
+    "name": "PETIT CHABLIS 2023",
+    "price": "441",
+    "desc": "DOMAINE ALAIN GEOFFROY · Petit Chablis, Chablis, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "SAN VINCENZO 2023",
+    "price": "444",
+    "desc": "ANSELMI · Monteforte d’Alpone, Vêneto, Itália · Garganega, Chardonnay e Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "MÂCON-FUISSÉ “VERS CHÂNES” 2023",
+    "price": "517 / 103",
+    "desc": "SÉBASTIEN GIROUX · Mâcon-Fuissé, Mâconnais, Borgonha, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "ROERO ARNEIS 2021",
+    "price": "633",
+    "desc": "BRUNO GIACOSA · Roero, Piemonte, Itália · Arneis"
+   },
+   {
+    "type": "item",
+    "name": "MONTAGNY 2016",
+    "price": "947",
+    "desc": "MAISON ROCHE DE BELLENE · Montagny, Côte Chalonnaise, Borgonha, França · Chardonnay"
+   },
+   {
+    "type": "group",
+    "label": "Aromáticos, Cítricos e Vibrantes"
+   },
+   {
+    "type": "item",
+    "name": "COQUEÑA 2023",
+    "price": "166",
+    "desc": "YACOCHUYA · Cafayate, Vales Calchaquíes, Salta, Argentina · Torrontés"
+   },
+   {
+    "type": "item",
+    "name": "PAUL MAS GEWÜRZTRAMINER 2024",
+    "price": "221",
+    "desc": "PAUL MAS · Languedoc, França · Gewürztraminer"
+   },
+   {
+    "type": "item",
+    "name": "INSIGNIA SAUVIGNON BLANC 2024",
+    "price": "228",
+    "desc": "LUIGI BOSCA · Mendoza, Argentina · Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "LA GASCOGNE D’ALAIN BRUMONT BLANC 2023",
+    "price": "241",
+    "desc": "ALAIN BRUMONT · Côtes de Gascogne, Sudoeste, França · Gros Manseng e Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "RAKA SAUVIGNON BLANC 2024",
+    "price": "264 / 52",
+    "desc": "RAKA · Klein River, Western Cape, África do Sul · Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "RIESLING KABINETT “FORSTER MARIENGARTEN” 2024",
+    "price": "276",
+    "desc": "EUGEN MÜLLER · Forst, Pfalz, Alemanha · Riesling"
+   },
+   {
+    "type": "item",
+    "name": "STONEBURN RIESLING 2023",
+    "price": "287 / 57",
+    "desc": "HUNTER’S WINES · Marlborough, Nova Zelândia · Riesling"
+   },
+   {
+    "type": "item",
+    "name": "CHEVERNY LES PETITS SILEX 2024",
+    "price": "339",
+    "desc": "DOMAINE DU SALVARD · Cheverny, Loire, França · Sauvignon Blanc e Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "LES MARNES 2024",
+    "price": "366",
+    "desc": "CHÂTEAU DE TRACY · Pouilly-Fumé, Loire Central, França · Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "RIESLING “MORT’S BLOCK” 2023",
+    "price": "415",
+    "desc": "KILIKANOON · Watervale, Clare Valley, Austrália · Riesling"
+   },
+   {
+    "type": "item",
+    "name": "TRINITY HILL SAUVIGNON BLANC 2023",
+    "price": "447",
+    "desc": "TRINITY HILL · Hawke’s Bay, Nova Zelândia · Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "SANCERRE 2024",
+    "price": "544",
+    "desc": "PASCAL JOLIVET · Sancerre, Loire Central, França · Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "POUILLY-FUMÉ ARGILE À SILEX 2023",
+    "price": "567",
+    "desc": "CHÂTEAU DE TRACY · Pouilly-Fumé, Loire Central, França · Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "PIO CESARE SAUVIGNON 2023",
+    "price": "764",
+    "desc": "PIO CESARE · Langhe, Piemonte, Itália · Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "VOUVRAY SEC “LE HAUT-LIEU” 2022",
+    "price": "928",
+    "desc": "DOMAINE HUET · Vouvray, Touraine, Loire, França · Chenin Blanc"
+   },
+   {
+    "type": "item",
+    "name": "CONDRIEU 2024",
+    "price": "1.146",
+    "desc": "BRUNEL DE LA GARDINE · Condrieu, Rhône Norte, França · Viognier"
+   },
+   {
+    "type": "group",
+    "label": "Encorpados, Texturais e com Madeira"
+   },
+   {
+    "type": "item",
+    "name": "PIZZATO SÉMILLON 2022",
+    "price": "228",
+    "desc": "PIZZATO · Vale dos Vinhedos, Serra Gaúcha, RS, Brasil · Sémillon"
+   },
+   {
+    "type": "item",
+    "name": "INTENTO CHARDONNAY 2025",
+    "price": "247",
+    "desc": "INTENTO · Encruzilhada do Sul, Serra do Sudeste, RS, Brasil · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "ALVARINHO BARRICADO 2023",
+    "price": "258",
+    "desc": "HERMANN · Pinheiro Machado, Serra do Sudeste, RS, Brasil · Alvarinho"
+   },
+   {
+    "type": "item",
+    "name": "CONDE DE VIMIOSO SOMMELIER 2023",
+    "price": "264",
+    "desc": "FALUA · Almeirim, Tejo, Portugal · Arinto, Fernão Pires e Verdelho"
+   },
+   {
+    "type": "item",
+    "name": "CÔTES DU RHÔNE BLANC 2024",
+    "price": "271",
+    "desc": "BRUNEL DE LA GARDINE · Côtes du Rhône, França · Roussanne, Clairette e Viognier"
+   },
+   {
+    "type": "item",
+    "name": "DE SANGRE WHITE BLEND 2024",
+    "price": "278 / 55",
+    "desc": "LUIGI BOSCA · Gualtallary, Vale do Uco, Mendoza, Argentina · Chardonnay, Sémillon e Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "RETA SÉMILLON 2024",
+    "price": "339 / 67",
+    "desc": "MARCELO RETAMAL · Itata, Chile · Sémillon"
+   },
+   {
+    "type": "item",
+    "name": "GRAND ARDÈCHE 2023",
+    "price": "347",
+    "desc": "LOUIS LATOUR · Ardèche, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "VIÑAS VIEJAS FERMENTADO EN BARRICA 2022",
+    "price": "364",
+    "desc": "LUIS CAÑAS · Villabuena de Álava, Rioja Alavesa, Espanha · Viura e Malvasia Riojana"
+   },
+   {
+    "type": "item",
+    "name": "QUINTA DOS ROQUES ENCRUZADO 2023",
+    "price": "397",
+    "desc": "QUINTA DOS ROQUES · Dão, Portugal · Encruzado"
+   },
+   {
+    "type": "item",
+    "name": "FAN D’ORO 2024",
+    "price": "434",
+    "desc": "BODEGAS ARZUAGA NAVARRO · Ribera del Duero, Castilla y León, Espanha · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "NUANCE 2018",
+    "price": "441",
+    "desc": "JÉRÔME ARNOUX · Arbois, Jura, França · Chardonnay e Savagnin"
+   },
+   {
+    "type": "item",
+    "name": "ANGÉLICA ZAPATA ALTA 2021",
+    "price": "478",
+    "desc": "CATENA ZAPATA · Vale do Uco, Mendoza, Argentina · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "L’ALTRO 2024",
+    "price": "487",
+    "desc": "PIO CESARE · Langhe, Piemonte, Itália · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "ULTREIA 2022",
+    "price": "488",
+    "desc": "RAÚL PÉREZ · Bierzo, Castilla y León, Espanha · Godello"
+   },
+   {
+    "type": "item",
+    "name": "G DE CHÂTEAU GUIRAUD 2018",
+    "price": "497",
+    "desc": "CHÂTEAU GUIRAUD · Bordeaux Blanc, Bordeaux, França · Sémillon e Sauvignon Blanc"
+   },
+   {
+    "type": "item",
+    "name": "MUROS DE MELGAÇO 2024",
+    "price": "498",
+    "desc": "ANSELMO MENDES · Monção e Melgaço, Vinho Verde, Minho, Portugal · Alvarinho"
+   },
+   {
+    "type": "item",
+    "name": "CHABLIS VIEILLES VIGNES 2023",
+    "price": "563 / 112",
+    "desc": "DOMAINE ALAIN GEOFFROY · Chablis, Yonne, Borgonha, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "AUTHENTIQUE 2016",
+    "price": "573",
+    "desc": "JÉRÔME ARNOUX · Arbois, Jura, França · Savagnin"
+   },
+   {
+    "type": "item",
+    "name": "CLOS MIREILLE BLANC 2021",
+    "price": "599",
+    "desc": "DOMAINES OTT · La Londe, Côtes de Provence, Provence, França · Sémillon e Rolle"
+   },
+   {
+    "type": "item",
+    "name": "COCÓ 2023",
+    "price": "622",
+    "desc": "BOUZA · Montevidéu, Uruguai · Chardonnay e Albariño"
+   },
+   {
+    "type": "item",
+    "name": "CHABLIS PREMIER CRU “BEAUROY” VIEILLES VIGNES 2023",
+    "price": "714",
+    "desc": "DOMAINE ALAIN GEOFFROY · Chablis Premier Cru, Chablis, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "M2 2023",
+    "price": "794",
+    "desc": "MARCELO RETAMAL · Marco de Jerez, Andaluzia, Espanha · Palomino Fino"
+   },
+   {
+    "type": "item",
+    "name": "FILOS 2023",
+    "price": "821",
+    "desc": "LUIGI BOSCA · Vale do Uco, Mendoza, Argentina · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "CHABLIS PREMIER CRU “VAILLONS” 2018",
+    "price": "938",
+    "desc": "WILLIAM FÈVRE · Vaillons, Chablis Premier Cru, Chablis, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "MERCUREY PREMIER CRU “EN SAZENAY” 2020",
+    "price": "968",
+    "desc": "DOMAINE DE SUREMAIN · Mercurey, Côte Chalonnaise, Borgonha, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "PÊRA-MANCA 2022",
+    "price": "1.248",
+    "desc": "CARTUXA · Évora, Alentejo, Portugal · Arinto e Antão Vaz"
+   },
+   {
+    "type": "item",
+    "name": "SANTENAY “COMME-DESSUS” 2020",
+    "price": "1.249",
+    "desc": "DOMAINE ROGER BELLAND · Santenay, Côte de Beaune, Borgonha, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "ADRIANNA VINEYARD “WHITE BONES” 2018",
+    "price": "1.265",
+    "desc": "CATENA ZAPATA · Gualtallary, Vale do Uco, Mendoza, Argentina · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "COLLEZIONE PRIVATA CHARDONNAY 2024",
+    "price": "1.431",
+    "desc": "ISOLE E OLENA · Chianti Classico, Toscana, Itália · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "SANTENAY PREMIER CRU “BEAUREGARD” 2022",
+    "price": "1.553",
+    "desc": "DOMAINE ROGER BELLAND · Santenay Premier Cru, Côte de Beaune, Borgonha, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "CHABLIS GRAND CRU “LES CLOS” 2021",
+    "price": "1.741",
+    "desc": "JEAN COLLET · Les Clos, Chablis Grand Cru, Chablis, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "MEURSAULT PREMIER CRU “PERRIÈRES” 2022",
+    "price": "3.986",
+    "desc": "DOMAINE PHILIPPE BOUZEREAU · Perrières, Meursault Premier Cru, Côte de Beaune, França · Chardonnay"
+   },
+   {
+    "type": "item",
+    "name": "TREBBIANO D’ABRUZZO 2020",
+    "price": "4.144",
+    "desc": "VALENTINI · Loreto Aprutino, Abruzzo, Itália · Trebbiano d’Abruzzo"
+   },
+   {
+    "type": "section",
+    "label": "LARANJAS",
+    "note": ""
+   },
+   {
+    "type": "group",
+    "label": "Laranjas e Macerações"
+   },
+   {
+    "type": "item",
+    "name": "NARANZA",
+    "price": "299",
+    "desc": "DELTA DO JACUÍ · Delta do Jacuí, RS, Brasil · Malvasia de Cândia"
+   },
+   {
+    "type": "item",
+    "name": "ORANGE FROM THE BASEMENT 2022",
+    "price": "376 / 75",
+    "desc": "ARMANI · Vêneto, Itália · Pinot Grigio"
+   },
+   {
+    "type": "item",
+    "name": "DAMIJAN RIBOLLA GIALLA 2020",
+    "price": "1.343",
+    "desc": "DAMIJAN · Oslavia, Gorizia, Friuli-Venezia Giulia, Itália · Ribolla Gialla"
+   },
+   {
+    "type": "section",
+    "label": "TINTOS",
+    "note": ""
+   },
+   {
+    "type": "group",
+    "label": "Leves, Frescos e Suculentos"
+   },
+   {
+    "type": "item",
+    "name": "QUINTA DO CORREIO 2023",
+    "price": "143",
+    "desc": "QUINTA DOS ROQUES · Dão, Portugal · Jaen, Touriga Nacional, Alfrocheiro e outras"
+   },
+   {
+    "type": "item",
+    "name": "QUINTA DO LOBO CLARETE 2023",
+    "price": "199",
+    "desc": "QUINTA DO LOBO · Bento Gonçalves, Serra Gaúcha, RS, Brasil · Labrusca"
+   },
+   {
+    "type": "item",
+    "name": "RIOJA DE MACERACIÓN CARBÓNICA 2024",
+    "price": "212 / 42",
+    "desc": "LUIS CAÑAS · Rioja Alavesa, Espanha · Tempranillo"
+   },
+   {
+    "type": "item",
+    "name": "ANSELMO MENDES PARDUSCO 2023",
+    "price": "274",
+    "desc": "ANSELMO MENDES · Vinho Verde, Minho, Portugal · Alvarelhão, Pedral e Cainho"
+   },
+   {
+    "type": "item",
+    "name": "BEAUJOLAIS-VILLAGES 2024",
+    "price": "321",
+    "desc": "MARC JAMBON · Beaujolais-Villages, Beaujolais, França · Gamay"
+   },
+   {
+    "type": "item",
+    "name": "RAISINS GAULOIS 2023",
+    "price": "404",
+    "desc": "LAPIERRE · Villié-Morgon, Beaujolais, França · Gamay"
+   },
+   {
+    "type": "item",
+    "name": "MOULIN-À-VENT 2020",
+    "price": "444",
+    "desc": "CHÂTEAU DES JACQUES · Moulin-à-Vent, Beaujolais, França · Gamay"
+   },
+   {
+    "type": "item",
+    "name": "EXCEPTION 2019",
+    "price": "450",
+    "desc": "JÉRÔME ARNOUX · Arbois, Jura, França · Trousseau"
+   },
+   {
+    "type": "item",
+    "name": "VALPOLICELLA CLASSICO 2024",
+    "price": "451",
+    "desc": "CÀ LA BIONDA · Valpolicella Classico, Vêneto, Itália · Corvina, Corvinone, Rondinella e outras"
+   },
+   {
+    "type": "item",
+    "name": "ULTREIA SAINT JACQUES 2020",
+    "price": "488",
+    "desc": "RAÚL PÉREZ · Bierzo, Castilla y León, Espanha · Mencía"
+   },
+   {
+    "type": "item",
+    "name": "LE DOS D’CHAT 2020",
+    "price": "736",
+    "desc": "FABRICE DODANE · Jura, França · Ploussard"
+   },
+   {
+    "type": "item",
+    "name": "NEWK 2021",
+    "price": "824",
+    "desc": "PEDRO PARRA · Guarilihue, Itata, Chile · Cinsault"
+   },
+   {
+    "type": "group",
+    "label": "Elegantes, Delicados e Sedosos"
+   },
+   {
+    "type": "item",
+    "name": "CIVIS PINOT NOIR 2025",
+    "price": "146 / 34",
+    "desc": "TERRANOBLE · Vale de Casablanca, Chile · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "SAURUS SELECT PINOT NOIR 2024",
+    "price": "248",
+    "desc": "FAMILIA SCHROEDER · San Patricio del Chañar, Neuquén, Patagônia, Argentina · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "ALTA YARI PINOT NOIR 2023",
+    "price": "322",
+    "desc": "ALTA YARI · Gualtallary, Vale do Uco, Mendoza, Argentina · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "LANGHE NEBBIOLO 2023",
+    "price": "337",
+    "desc": "BEL COLLE · Langhe, Piemonte, Itália · Nebbiolo"
+   },
+   {
+    "type": "item",
+    "name": "EUGEN MÜLLER SPÄTBURGUNDER 2019",
+    "price": "356 / 71",
+    "desc": "EUGEN MÜLLER · Pfalz, Alemanha · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "STONEBURN PINOT NOIR 2022",
+    "price": "416",
+    "desc": "HUNTER’S WINES · Marlborough, Nova Zelândia · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "BARBARESCO CONVIVIO 2021",
+    "price": "487 / 97",
+    "desc": "BEL COLLE · Barbaresco, Piemonte, Itália · Nebbiolo"
+   },
+   {
+    "type": "item",
+    "name": "BOURGOGNE HAUTES-CÔTES DE NUITS “LES DAMES DE VERGY” 2022",
+    "price": "697",
+    "desc": "DOMAINE ANTONIN GUYON · Hautes-Côtes de Nuits, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "MERCUREY 2021",
+    "price": "698",
+    "desc": "DOMAINE DE SUREMAIN · Mercurey, Côte Chalonnaise, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "LANGHE NEBBIOLO 2022",
+    "price": "746",
+    "desc": "PIO CESARE · Langhe, Piemonte, Itália · Nebbiolo"
+   },
+   {
+    "type": "item",
+    "name": "PINOT NOIR “BRAUNEBERGER MANDELGRABEN”* 2020",
+    "price": "748",
+    "desc": "MARKUS MOLITOR · Brauneberg, Mosel, Alemanha · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "QUEBRADA CHALINGA 2021",
+    "price": "758",
+    "desc": "(reta) Marcelo retamal · Chalinga, Vale do Limarí, Chile · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "SANTENAY “CHARMES” 2022",
+    "price": "976 / 195",
+    "desc": "DOMAINE ROGER BELLAND · Santenay, Côte de Beaune, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "SAVIGNY-LÈS-BEAUNE “LES GRANDS LIARDS” 2021",
+    "price": "1.092",
+    "desc": "PATRICK JAVILLIER · Savigny-lès-Beaune, Côte de Beaune, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "SAVIGNY-LÈS-BEAUNE “LES GOURDELETTES” 2021",
+    "price": "1.204",
+    "desc": "DOMAINE ANTONIN GUYON · Savigny-lès-Beaune, Côte de Beaune, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "SANTENAY PREMIER CRU “BEAUREGARD” 2022",
+    "price": "1.275",
+    "desc": "DOMAINE ROGER BELLAND · Santenay Premier Cru, Côte de Beaune, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "group",
+    "label": "Frutados, Macios e Envolventes"
+   },
+   {
+    "type": "item",
+    "name": "LA LINDA MALBEC 2025",
+    "price": "138",
+    "desc": "LUIGI BOSCA · Mendoza, Argentina · Malbec"
+   },
+   {
+    "type": "item",
+    "name": "N’TERRA NEGROAMARO 2025",
+    "price": "158 / 34",
+    "desc": "PIETRAPURA · Salento, Puglia, Itália · Negroamaro"
+   },
+   {
+    "type": "item",
+    "name": "SAURUS MERLOT 2024",
+    "price": "166",
+    "desc": "FAMILIA SCHROEDER · San Patricio del Chañar, Neuquén, Patagônia, Argentina · Merlot"
+   },
+   {
+    "type": "item",
+    "name": "BARBERA D’ASTI 2024",
+    "price": "211",
+    "desc": "BEL COLLE · Asti, Piemonte, Itália · Barbera"
+   },
+   {
+    "type": "item",
+    "name": "PAUL MAS SYRAH 2024",
+    "price": "215",
+    "desc": "PAUL MAS · Languedoc, França · Syrah"
+   },
+   {
+    "type": "item",
+    "name": "PETITE CLASSIQUE 2022",
+    "price": "218",
+    "desc": "GLEN CARLOU · Paarl, Western Cape, África do Sul · Merlot e Malbec"
+   },
+   {
+    "type": "item",
+    "name": "VELUDO AZUL RESERVA 2023",
+    "price": "219",
+    "desc": "PIZZATO · Vale dos Vinhedos, Serra Gaúcha, RS, Brasil · Alicante Bouschet"
+   },
+   {
+    "type": "item",
+    "name": "HERMON RED 2024",
+    "price": "227",
+    "desc": "GOLAN HEIGHTS WINERY · Galileia, Israel · Cabernet Sauvignon, Merlot, Malbec e outras"
+   },
+   {
+    "type": "item",
+    "name": "AZARA CARMÉNÈRE 2021",
+    "price": "228",
+    "desc": "TERRANOBLE · Vale do Maule, Chile · Carménère"
+   },
+   {
+    "type": "item",
+    "name": "LA GASCOGNE D’ALAIN BRUMONT ROUGE 2023",
+    "price": "241",
+    "desc": "ALAIN BRUMONT · Côtes de Gascogne, Sudoeste, França · Merlot e Tannat"
+   },
+   {
+    "type": "item",
+    "name": "CONDE DE VIMIOSO SOMMELIER EDITION BRASIL 2022",
+    "price": "264",
+    "desc": "FALUA · Tejo, Portugal · Touriga Nacional, Aragonez, Marselan e outras"
+   },
+   {
+    "type": "item",
+    "name": "MEYMANS 2021",
+    "price": "276 / 55",
+    "desc": "KILIKANOON · Clare Valley, Austrália · Shiraz"
+   },
+   {
+    "type": "item",
+    "name": "LE FRANC 2023",
+    "price": "287",
+    "desc": "DON GUERINO · Alto Feliz, Serra Gaúcha, RS, Brasil · Cabernet Franc"
+   },
+   {
+    "type": "item",
+    "name": "CALICANTO 2023",
+    "price": "288",
+    "desc": "EL PRINCIPAL · Alto Maipo, Chile · Cabernet Sauvignon, Carménère e Syrah"
+   },
+   {
+    "type": "item",
+    "name": "PASO DE PIEDRA MALBEC 2020",
+    "price": "289",
+    "desc": "VIÑA ALÍCIA · Luján de Cuyo, Mendoza, Argentina · Malbec"
+   },
+   {
+    "type": "item",
+    "name": "COLECCIÓN DE LA FAMILIA 2022",
+    "price": "291",
+    "desc": "MUÑOZ · La Mancha, Castilla-La Mancha, Espanha · Tempranillo e Merlot"
+   },
+   {
+    "type": "item",
+    "name": "DE SANGRE MALBEC D.O.C. LUJÁN DE CUYO 2023",
+    "price": "298 / 59",
+    "desc": "LUIGI BOSCA · Luján de Cuyo, Mendoza, Argentina · Malbec"
+   },
+   {
+    "type": "item",
+    "name": "RAKA PINOTAGE 2022",
+    "price": "326",
+    "desc": "RAKA · Klein River, Western Cape, África do Sul · Pinotage"
+   },
+   {
+    "type": "item",
+    "name": "LA PLANTA 2023",
+    "price": "344",
+    "desc": "BODEGAS ARZUAGA NAVARRO · Ribera del Duero, Castilla y León, Espanha · Tempranillo"
+   },
+   {
+    "type": "item",
+    "name": "OHITI ESTATE CABERNET SAUVIGNON 2021",
+    "price": "348",
+    "desc": "BROOKFIELDS · Hawke’s Bay, Nova Zelândia · Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "VONTADE 2022",
+    "price": "358 / 71",
+    "desc": "G2 - GONZALO GUZMÁN · Alto Maipo, Chile · Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "TRIFOLÉ DOLCETTO D’ALBA 2023",
+    "price": "404",
+    "desc": "BRUNO ROCCA · Alba, Piemonte, Itália · Dolcetto"
+   },
+   {
+    "type": "item",
+    "name": "PIO CESARE BARBERA D’ALBA 2023",
+    "price": "509",
+    "desc": "PIO CESARE · Alba, Piemonte, Itália · Barbera"
+   },
+   {
+    "type": "item",
+    "name": "STORIA 2018",
+    "price": "548",
+    "desc": "CASA VALDUGA · Vale dos Vinhedos, Serra Gaúcha, RS, Brasil · Merlot"
+   },
+   {
+    "type": "item",
+    "name": "SEVEN OAKS CABERNET SAUVIGNON 2022",
+    "price": "567",
+    "desc": "J. LOHR · Paso Robles, Califórnia, Estados Unidos · Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "CHÂTEAU PIERREFITTE 2022",
+    "price": "644",
+    "desc": "CHÂTEAU PIERREFITTE · Lalande-de-Pomerol, Bordeaux, França · Merlot, Cabernet Franc e Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "CAMPO AL MARE BOLGHERI 2023",
+    "price": "667 / 133",
+    "desc": "TENUTE FOLONARI · Bolgheri, Toscana, Itália · Merlot, Cabernet Sauvignon, Cabernet Franc e outras"
+   },
+   {
+    "type": "group",
+    "label": "Especiados, Complexos e Gastronômicos"
+   },
+   {
+    "type": "item",
+    "name": "ALTA YARI CABERNET FRANC RESERVA 2024",
+    "price": "210 / 42",
+    "desc": "ALTA YARI · Gualtallary, Vale do Uco, Mendoza, Argentina · Cabernet Franc"
+   },
+   {
+    "type": "item",
+    "name": "HABITAT SANGIOVESE GRAN RESERVA 2021",
+    "price": "211",
+    "desc": "DON BONIFÁCIO · Caxias do Sul, Serra Gaúcha, RS, Brasil · Sangiovese"
+   },
+   {
+    "type": "item",
+    "name": "CARIGNAN VIEILLES VIGNES 2023",
+    "price": "262",
+    "desc": "PAUL MAS · Languedoc, França · Carignan"
+   },
+   {
+    "type": "item",
+    "name": "CÔTES DU RHÔNE ROUGE 2023",
+    "price": "271",
+    "desc": "BRUNEL DE LA GARDINE · Côtes du Rhône, França · Grenache, Syrah e Mourvèdre"
+   },
+   {
+    "type": "item",
+    "name": "CALCÁRIOS DO PRINCIPAL 2018",
+    "price": "282",
+    "desc": "COLINAS DE SÃO LOURENÇO · Bairrada, Portugal · Touriga Nacional, Cabernet Sauvignon e Merlot"
+   },
+   {
+    "type": "item",
+    "name": "ALIOTTO 2022",
+    "price": "298",
+    "desc": "TENUTA PODERNOVO · Terricciola, Toscana, Itália · Sangiovese, Cabernet Sauvignon e Merlot"
+   },
+   {
+    "type": "item",
+    "name": "DE SANGRE CABERNET FRANC 2023",
+    "price": "298",
+    "desc": "LUIGI BOSCA · Maipú, Mendoza, Argentina · Cabernet Franc"
+   },
+   {
+    "type": "item",
+    "name": "ROSSO CONERO “SAN LORENZO” 2022",
+    "price": "317",
+    "desc": "UMANI RONCHI · Rosso Conero, Marche, Itália · Montepulciano"
+   },
+   {
+    "type": "item",
+    "name": "CAIRANNE 2023",
+    "price": "339",
+    "desc": "BRUNEL DE LA GARDINE · Cairanne, Rhône Sul, França · Grenache, Syrah e Mourvèdre"
+   },
+   {
+    "type": "item",
+    "name": "CHIANTI CLASSICO 2023",
+    "price": "352",
+    "desc": "TENUTA DI NOZZOLE (FOLONARI) · Chianti Classico, Toscana, Itália · Sangiovese"
+   },
+   {
+    "type": "item",
+    "name": "QUINTA DA OLIVEIRINHA RESERVA 2021",
+    "price": "363",
+    "desc": "ALVES DE SOUSA · Douro, Portugal · Touriga Nacional, Touriga Franca e Tinta Roriz"
+   },
+   {
+    "type": "item",
+    "name": "QUINTA DAS BÁGEIRAS RESERVA 2016",
+    "price": "402",
+    "desc": "QUINTA DAS BÁGEIRAS · Bairrada, Portugal · Baga e Touriga Nacional"
+   },
+   {
+    "type": "item",
+    "name": "CROZES-HERMITAGE 2022",
+    "price": "483",
+    "desc": "BRUNEL DE LA GARDINE · Crozes-Hermitage, Rhône Norte, França · Syrah"
+   },
+   {
+    "type": "item",
+    "name": "CHIANTI CLASSICO 2022",
+    "price": "560 / 112",
+    "desc": "ISOLE E OLENA · Chianti Classico, Toscana, Itália · Sangiovese, Canaiolo e Syrah"
+   },
+   {
+    "type": "item",
+    "name": "NOSSA CALCÁRIO 2021",
+    "price": "617",
+    "desc": "FILIPA PATO E WILLIAM WOUTERS · Bairrada, Portugal · Baga"
+   },
+   {
+    "type": "item",
+    "name": "TOCOCO 2020",
+    "price": "628",
+    "desc": "ALCOHUAZ · Vale do Elqui, Chile · Syrah"
+   },
+   {
+    "type": "item",
+    "name": "MARQUÉS DE MURRIETA RESERVA 2020",
+    "price": "647",
+    "desc": "MARQUÉS DE MURRIETA · Rioja Alta, Rioja, Espanha · Tempranillo, Mazuelo, Graciano e outras"
+   },
+   {
+    "type": "item",
+    "name": "SELECCIÓN ESPECIAL 2018",
+    "price": "673",
+    "desc": "ABADIA RETUERTA · Sardón de Duero, Castilla y León, Espanha · Tempranillo, Cabernet Sauvignon, Syrah e outras"
+   },
+   {
+    "type": "item",
+    "name": "LE DIFESE 2022",
+    "price": "744",
+    "desc": "TENUTA SAN GUIDO · Bolgheri, Toscana, Itália · Cabernet Sauvignon e Sangiovese"
+   },
+   {
+    "type": "item",
+    "name": "VIGNO “TRUQUILEMU VINEYARD” 2018",
+    "price": "836",
+    "desc": "GARAGE WINE CO. · Truquilemu, Vale do Maule, Chile · Carignan"
+   },
+   {
+    "type": "item",
+    "name": "J 2017",
+    "price": "841",
+    "desc": "JOSÉ DE SOUSA · Reguengos de Monsaraz, Alentejo, Portugal · Grand Noir, Aragonez e Syrah"
+   },
+   {
+    "type": "item",
+    "name": "LUIS CAÑAS GRAN RESERVA 2016",
+    "price": "866 / 173",
+    "desc": "LUIS CAÑAS · Rioja Alavesa, Espanha · Tempranillo e Graciano"
+   },
+   {
+    "type": "item",
+    "name": "FIDES BARBERA D’ALBA SUPERIORE “VIGNA MOSCONI” 2022",
+    "price": "887",
+    "desc": "PIO CESARE · Alba, Piemonte, Itália · Barbera"
+   },
+   {
+    "type": "item",
+    "name": "CHÂTEAUNEUF-DU-PAPE 2022",
+    "price": "953",
+    "desc": "CHÂTEAU DE LA GARDINE · Châteauneuf-du-Pape, Rhône Sul, França · Grenache, Syrah, Mourvèdre e outras"
+   },
+   {
+    "type": "item",
+    "name": "QUINTA DA GAIVOSA 2022",
+    "price": "961",
+    "desc": "ALVES DE SOUSA · Douro, Portugal · Tinta Roriz, Touriga Franca, Tinto Cão e outras"
+   },
+   {
+    "type": "item",
+    "name": "BRUNELLO DI MONTALCINO 2021",
+    "price": "997 / 199",
+    "desc": "CAPRILI · Brunello di Montalcino, Toscana, Itália · Sangiovese Grosso"
+   },
+   {
+    "type": "item",
+    "name": "POMMARD “LES CRAS” 2023",
+    "price": "1.843",
+    "desc": "DOMAINE ROGER BELLAND · Pommard, Côte de Beaune, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "GEVREY-CHAMBERTIN “LA JUSTICE” 2022",
+    "price": "1.861",
+    "desc": "DOMAINE ANTONIN GUYON · Gevrey-Chambertin, Côte de Nuits, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "NUITS-SAINT-GEORGES PREMIER CRU “LES DAMODES” 2020",
+    "price": "1.924",
+    "desc": "DOMAINE FAIVELEY · Nuits-Saint-Georges, Côte de Nuits, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "MONTEVERTINE 2021",
+    "price": "1.939",
+    "desc": "MONTEVERTINE · Radda in Chianti, Toscana, Itália · Sangiovese, Canaiolo e Colorino"
+   },
+   {
+    "type": "item",
+    "name": "CORTON GRAND CRU “CLOS DU ROY” 2020",
+    "price": "3.719",
+    "desc": "DOMAINE ANTONIN GUYON · Corton, Côte de Beaune, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "item",
+    "name": "CLOS DE VOUGEOT GRAND CRU 2021",
+    "price": "4.337",
+    "desc": "CHÂTEAU DE LA TOUR · Clos de Vougeot, Côte de Nuits, Borgonha, França · Pinot Noir"
+   },
+   {
+    "type": "group",
+    "label": "Estruturados, Intensos e Clássicos"
+   },
+   {
+    "type": "item",
+    "name": "BOUZA TANNAT 2024",
+    "price": "287",
+    "desc": "BOUZA · Montevidéu, Uruguai · Tannat"
+   },
+   {
+    "type": "item",
+    "name": "COMTE DE DAUZAC HAUT-MÉDOC 2020",
+    "price": "483",
+    "desc": "CHÂTEAU DAUZAC · Haut-Médoc, Bordeaux, França · Cabernet Sauvignon e Merlot"
+   },
+   {
+    "type": "item",
+    "name": "SPY - SAN PEDRO DE YACOCHUYA 2023",
+    "price": "513 / 102",
+    "desc": "YACOCHUYA · Cafayate, Vales Calchaquíes, Salta, Argentina · Malbec e Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "MEMORIAS 2023",
+    "price": "629",
+    "desc": "VIÑA EL PRINCIPAL · Alto Maipo, Chile · Cabernet Sauvignon, Petit Verdot, Syrah e outras"
+   },
+   {
+    "type": "item",
+    "name": "GRANDE VINDIMA 2016",
+    "price": "645",
+    "desc": "LÍDIO CARRARO · Encruzilhada do Sul, Serra do Sudeste, RS, Brasil · Tannat"
+   },
+   {
+    "type": "item",
+    "name": "LÉON 2022",
+    "price": "909",
+    "desc": "LUIGI BOSCA · Gualtallary (Vale do Uco) e Vistalba (Luján de Cuyo), Mendoza, Argentina · Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "BAROLO RISERVA 10 ANNI 2015",
+    "price": "924",
+    "desc": "BEL COLLE · Barolo, Piemonte, Itália · Nebbiolo"
+   },
+   {
+    "type": "item",
+    "name": "YACOCHUYA 2016",
+    "price": "994",
+    "desc": "YACOCHUYA · Cafayate, Vales Calchaquíes, Salta, Argentina · Malbec e Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "YACOCHUYA 2022",
+    "price": "994",
+    "desc": "YACOCHUYA · Cafayate, Vales Calchaquíes, Salta, Argentina · Malbec e Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "ARZUAGA RESERVA 2021",
+    "price": "1.038",
+    "desc": "BODEGAS ARZUAGA NAVARRO · Ribera del Duero, Castilla y León, Espanha · Tempranillo, Cabernet Sauvignon e Merlot"
+   },
+   {
+    "type": "item",
+    "name": "PARAÍSO 2021",
+    "price": "1.048",
+    "desc": "LUIGI BOSCA · Maipú, Mendoza, Argentina · Malbec, Cabernet Sauvignon, Merlot e outras"
+   },
+   {
+    "type": "item",
+    "name": "ORACLE 2018",
+    "price": "1.112",
+    "desc": "KILIKANOON · Clare Valley, Austrália · Shiraz"
+   },
+   {
+    "type": "item",
+    "name": "HERMITAGE 2021",
+    "price": "1.194",
+    "desc": "BRUNEL DE LA GARDINE · Hermitage, Rhône Norte, França · Syrah"
+   },
+   {
+    "type": "item",
+    "name": "CHEVAL DES ANDES 2018",
+    "price": "1.299",
+    "desc": "CHEVAL DES ANDES · Luján de Cuyo e Vale do Uco, Mendoza, Argentina · Malbec, Cabernet Sauvignon e Petit Verdot"
+   },
+   {
+    "type": "item",
+    "name": "EL PRINCIPAL ANDETELMO 2019",
+    "price": "1.470",
+    "desc": "VIÑA EL PRINCIPAL · Alto Maipo, Chile · Cabernet Sauvignon e Petit Verdot"
+   },
+   {
+    "type": "item",
+    "name": "MALBEC ARGENTINO 2021",
+    "price": "1.491",
+    "desc": "CATENA ZAPATA · Vale do Uco, Mendoza, Argentina · Malbec"
+   },
+   {
+    "type": "item",
+    "name": "ALUVIONAL MALBEC 2016",
+    "price": "1.531",
+    "desc": "ZUCCARDI · Paraje Altamira, Vale do Uco, Mendoza, Argentina · Malbec"
+   },
+   {
+    "type": "item",
+    "name": "BARBARESCO 2019",
+    "price": "1.636",
+    "desc": "PIO CESARE · Barbaresco, Piemonte, Itália · Nebbiolo"
+   },
+   {
+    "type": "item",
+    "name": "BAROLO 2019",
+    "price": "1.636 / 327",
+    "desc": "PIO CESARE · Barolo, Piemonte, Itália · Nebbiolo"
+   },
+   {
+    "type": "item",
+    "name": "CHÂTEAU LANGOA BARTON SAINT-JULIEN 2018",
+    "price": "1.675",
+    "desc": "CHÂTEAU LANGOA BARTON · Saint-Julien, Bordeaux, França · Cabernet Sauvignon, Merlot e Cabernet Franc"
+   },
+   {
+    "type": "item",
+    "name": "CAYMUS 50TH ANNIVERSARY EDITION 2022",
+    "price": "1.679",
+    "desc": "CAYMUS VINEYARDS · Napa Valley, Califórnia, Estados Unidos · Cabernet Sauvignon"
+   },
+   {
+    "type": "item",
+    "name": "ABANDONADO 2020",
+    "price": "1.844",
+    "desc": "ALVES DE SOUSA · Douro, Portugal · Tinta Amarela, Touriga Franca, Touriga Nacional e outras"
+   },
+   {
+    "type": "item",
+    "name": "BARBARESCO “IL BRICCO” 2020",
+    "price": "2.218",
+    "desc": "PIO CESARE · Barbaresco, Piemonte, Itália · Nebbiolo"
+   },
+   {
+    "type": "item",
+    "name": "BRUNELLO DI MONTALCINO RISERVA ADALBERTO 2018",
+    "price": "2.229",
+    "desc": "CAPRILI · Brunello di Montalcino, Toscana, Itália · Sangiovese Grosso"
+   },
+   {
+    "type": "item",
+    "name": "CEPPARELLO 2021",
+    "price": "2.274",
+    "desc": "ISOLE E OLENA · Chianti Classico, Toscana, Itália · Sangiovese"
+   },
+   {
+    "type": "item",
+    "name": "BAROLO “MOSCONI” 2018",
+    "price": "2.925",
+    "desc": "PIO CESARE · Barolo, Piemonte, Itália · Nebbiolo"
+   },
+   {
+    "type": "item",
+    "name": "BRUNELLO DI MONTALCINO 2017",
+    "price": "3.593",
+    "desc": "SALVIONI · Brunello di Montalcino, Toscana, Itália · Sangiovese Grosso"
+   },
+   {
+    "type": "item",
+    "name": "LE PERGOLE TORTE 2020",
+    "price": "4.481",
+    "desc": "MONTEVERTINE · Radda in Chianti, Toscana, Itália · Sangiovese"
+   },
+   {
+    "type": "section",
+    "label": "APERITIVOS E SOBREMESA",
+    "note": ""
+   },
+   {
+    "type": "group",
+    "label": "Aperitivos Secos"
+   },
+   {
+    "type": "item",
+    "name": "BARBADILLO MANZANILLA",
+    "price": "257 / 21",
+    "desc": "BODEGAS BARBADILLO · Manzanilla-Sanlúcar de Barrameda, Andaluzia, Espanha · Palomino Fino"
+   },
+   {
+    "type": "item",
+    "name": "HIDALGO FINO",
+    "price": "334 / 28",
+    "desc": "BODEGAS HIDALGO LA GITANA · Jerez-Xérès-Sherry, Andaluzia, Espanha · Palomino Fino"
+   },
+   {
+    "type": "item",
+    "name": "JUSTINO’S SERCIAL 10 ANOS",
+    "price": "599 / 50",
+    "desc": "JUSTINO’S MADEIRA WINES · Madeira DOP, Portugal · Sercial"
+   },
+   {
+    "type": "group",
+    "label": "Late Harvest e Botritizados"
+   },
+   {
+    "type": "item",
+    "name": "CHÂTEAU DE GÉRAUD 2014",
+    "price": "389 / 32",
+    "desc": "VIGNOBLES GÉRARDIN · Monbazillac, Bergerac, França · Sémillon, Sauvignon Blanc e Muscadelle"
+   },
+   {
+    "type": "item",
+    "name": "TERRAZAS DE LOS ANDES PETIT MANSENG 2020 (375 ML)",
+    "price": "347 / 58",
+    "desc": "TERRAZAS DE LOS ANDES · Vale de Uco, Mendoza, Argentina · Petit Manseng"
+   },
+   {
+    "type": "item",
+    "name": "PAJZOS TOKAJI ASZÚ 5 PUTTONYOS 2017 (500 ML)",
+    "price": "840 / 105",
+    "desc": "CHÂTEAU PAJZOS · Tokaj-Hegyalja, Hungria · Furmint, Zéta e Hárslevelű"
+   },
+   {
+    "type": "group",
+    "label": "Fortificados"
+   },
+   {
+    "type": "item",
+    "name": "ALAMBRE MOSCATEL ROXO 5 ANOS 2021",
+    "price": "348 / 29",
+    "desc": "JOSÉ MARIA DA FONSECA · Moscatel Roxo de Setúbal DOP, Península de Setúbal, Portugal · Moscatel Roxo"
+   },
+   {
+    "type": "item",
+    "name": "ALAMBRE MOSCATEL DE SETÚBAL 20 ANOS",
+    "price": "699 / 58",
+    "desc": "JOSÉ MARIA DA FONSECA · Moscatel de Setúbal DOP, Península de Setúbal, Portugal · Moscatel de Setúbal"
+   },
+   {
+    "type": "item",
+    "name": "CALDAS WHITE PORTO SPECIAL RESERVE (500 ML)",
+    "price": "328 / 41",
+    "desc": "ALVES DE SOUSA · Porto DOC, Douro, Portugal · Malvasia Fina, Gouveio e Viosinho"
+   },
+   {
+    "type": "item",
+    "name": "VIEIRA DE SOUSA COLHEITA 2003",
+    "price": "729 / 61",
+    "desc": "VIEIRA DE SOUSA · Porto DOC, Douro, Portugal · Touriga Nacional, Touriga Francesa e Tinta Roriz"
+   },
+   {
+    "type": "item",
+    "name": "QUINTA DA GAIVOSA PORTO 10 ANOS (500 ML)",
+    "price": "535 / 67",
+    "desc": "ALVES DE SOUSA · Porto DOC, Douro, Portugal · Touriga Franca, Tinto Cão e Tinta Barroca"
+   },
+   {
+    "type": "item",
+    "name": "TAYLOR’S PORTO TAWNY 20 ANOS",
+    "price": "847 / 71",
+    "desc": "TAYLOR FLADGATE · Porto DOC, Douro, Portugal · Castas tintas tradicionais do Douro"
+   },
+   {
+    "type": "item",
+    "name": "ALVES DE SOUSA PORTO VINTAGE 2011",
+    "price": "891 / 74",
+    "desc": "ALVES DE SOUSA · Porto DOC, Douro, Portugal · Touriga Franca, Touriga Nacional e Sousão"
+   },
+   {
+    "type": "item",
+    "name": "QUINTA DA GAIVOSA LBV 2018",
+    "price": "529",
+    "desc": "ALVES DE SOUSA · Porto DOC, Douro, Portugal · Touriga Franca, Touriga Nacional e Tinta Roriz"
+   },
+   {
+    "type": "item",
+    "name": "JUSTINO’S MADEIRA BOAL 10 ANOS",
+    "price": "599 / 50",
+    "desc": "jUSTINO’S MADEIRA WINES · Madeira DOP, Portugal · Boal"
+   }
+  ]
+ }
+]

@@ -67,6 +67,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: clip;
   background-color: var(--cream);
   background-image: linear-gradient(rgb(250 241 214 / 0.42), rgb(250 241 214 / 0.42)), url('/img/granito-cream.webp');
   background-size: auto, 900px auto;
@@ -211,6 +212,41 @@ html {
   width: 1.15em;
   height: 1.15em;
   flex: none;
+}
+
+/* ——— View Transitions: tempo → seção, cardápio → carta ——— */
+::view-transition-group(morph) {
+  animation-duration: 0.9s;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+::view-transition-old(morph),
+::view-transition-new(morph) {
+  height: 100%;
+  object-fit: cover;
+  overflow: clip;
+}
+::view-transition-old(morph) {
+  animation: 0.45s ease-out both vt-out;
+}
+::view-transition-new(morph) {
+  animation: 0.6s ease-in 0.2s both vt-in;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.55s;
+}
+@keyframes vt-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes vt-in {
+  from {
+    opacity: 0;
+  }
+}
+html.sheet-open {
+  overflow: hidden;
 }
 
 @media (prefers-reduced-motion: reduce) {

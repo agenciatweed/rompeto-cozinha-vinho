@@ -1,0 +1,334 @@
+---
+import { slug } from '../lib/slug';
+
+interface Block {
+  type: 'part' | 'section' | 'group' | 'item';
+  label?: string;
+  note?: string;
+  name?: string;
+  price?: string;
+  desc?: string;
+}
+interface Props {
+  id: string;
+  title: string;
+  pdf: string;
+  season: string;
+  blocks: Block[];
+  notes: string[];
+}
+const { id, title, pdf, season, blocks, notes } = Astro.props;
+
+
+const label = (s = '') => (s === s.toUpperCase() ? s.charAt(0) + s.slice(1).toLowerCase() : s);
+const index = blocks.filter((b) => b.type === 'section' || b.type === 'part');
+const isWine = id === 'vinhos';
+---
+
+<dialog class="sheet" id={`sheet-${id}`} aria-labelledby={`sheet-${id}-title`}>
+  <div class="sheet-paper">
+    <header class="sheet-head">
+      <div class="sheet-titles">
+        <p class="sheet-season caps">{season}</p>
+        <h2 id={`sheet-${id}-title`} class="sheet-title caps">{title}</h2>
+      </div>
+      <div class="sheet-actions">
+        <a class="sheet-pdf caps" href={pdf} target="_blank" rel="noopener">PDF</a>
+        <button class="sheet-close" type="button" data-close aria-label={`Fechar ${title}`}>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 3l14 14M17 3L3 17" /></svg>
+        </button>
+      </div>
+      {
+        index.length > 1 && (
+          <nav class="sheet-index" aria-label={`Seções de ${title}`}>
+            {index.map((b) => (
+              <a class={`caps${b.type === 'part' ? ' is-part' : ''}`} href={`#${id}-${slug(b.label ?? '')}`} data-jump>
+                {label(b.label)}
+              </a>
+            ))}
+          </nav>
+        )
+      }
+    </header>
+
+    <div class="sheet-body">
+      {
+        blocks.map((b) => {
+          if (b.type === 'part')
+            return (
+              <h3 class="sheet-part" id={`${id}-${slug(b.label ?? '')}`}>
+                {b.label}
+                {isWine && b.label === 'Garrafas' && <span class="sheet-part-note">garrafa / taça (120ml)</span>}
+              </h3>
+            );
+          if (b.type === 'section')
+            return (
+              <h4 class="sheet-section caps" id={`${id}-${slug(b.label ?? '')}`}>
+                {b.label}
+                {b.note && <span class="sheet-section-note">{b.note}</span>}
+              </h4>
+            );
+          if (b.type === 'group') return <p class="sheet-group">{b.label}</p>;
+          return (
+            <div class="sheet-item">
+              <p class="item-line">
+                <span class="item-name">{b.name}</span>
+                <span class="item-dots" aria-hidden="true" />
+                <span class="item-price">
+                  <span class="sr-only">R$ </span>
+                  {b.price}
+                </span>
+              </p>
+              {b.desc && <p class="item-desc">{b.desc}</p>}
+            </div>
+          );
+        })
+      }
+      <ul class="sheet-notes">
+        {notes.map((n) => <li>{n}</li>)}
+      </ul>
+    </div>
+  </div>
+</dialog>
+
+<style>
+  .sheet {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--night);
+    overflow: hidden;
+  }
+  .sheet::backdrop {
+    background: rgb(11 31 48 / 0.62);
+  }
+  .sheet[open] {
+    display: flex;
+    justify-content: center;
+  }
+  .sheet-paper {
+    position: relative;
+    width: min(100%, 880px);
+    height: 100%;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background-color: var(--cream);
+    background-image: linear-gradient(rgb(250 241 214 / 0.42), rgb(250 241 214 / 0.42)), url('/img/granito-cream.webp');
+    background-size: auto, 900px auto;
+    box-shadow: 0 0 60px rgb(11 31 48 / 0.35);
+    scrollbar-color: var(--greige) transparent;
+  }
+  /* Sem View Transitions: a carta sobe e aparece */
+  .sheet[open] .sheet-paper {
+    animation: sheet-in 0.6s var(--ease-out);
+  }
+  :global(html.vt-sheet) .sheet[open] .sheet-paper {
+    animation: none;
+  }
+  @keyframes sheet-in {
+    from {
+      opacity: 0;
+      transform: translateY(32px);
+    }
+  }
+
+  .sheet-head {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 14px 24px;
+    align-items: end;
+    padding: clamp(24px, 4vw, 44px) clamp(20px, 5vw, 64px) 0;
+    background: linear-gradient(var(--cream) 82%, rgb(253 247 216 / 0));
+  }
+  .sheet-season {
+    margin: 0;
+    font-size: 0.6875rem;
+    letter-spacing: 0.3em;
+    color: var(--gold-ink);
+  }
+  .sheet-title {
+    margin: 6px 0 0;
+    font-size: clamp(1.25rem, 0.9rem + 1.4vw, 2rem);
+    font-weight: 400;
+    letter-spacing: 0.26em;
+  }
+  .sheet-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sheet-pdf {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 14px;
+    font-size: 0.6875rem;
+    letter-spacing: 0.26em;
+    color: var(--night);
+    text-decoration: underline;
+    text-decoration-color: var(--gold);
+    text-underline-offset: 0.6em;
+  }
+  .sheet-close {
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--night);
+    background: transparent;
+    color: var(--night);
+    cursor: pointer;
+    transition:
+      background-color 0.3s var(--ease-out),
+      color 0.3s var(--ease-out);
+  }
+  .sheet-close:hover {
+    background: var(--night);
+    color: var(--cream);
+  }
+  .sheet-close svg {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.4;
+  }
+  .sheet-index {
+    grid-column: 1 / -1;
+    min-width: 0;
+    display: flex;
+    gap: 6px 22px;
+    overflow-x: auto;
+    padding: 6px 0 16px;
+    border-bottom: 1px solid var(--gold);
+    scrollbar-width: none;
+  }
+  .sheet-index a {
+    flex: none;
+    padding: 8px 0;
+    font-size: 0.6875rem;
+    letter-spacing: 0.22em;
+    color: var(--night);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .sheet-index a.is-part {
+    color: var(--gold-ink);
+  }
+  .sheet-index a:hover {
+    color: var(--tawny);
+  }
+
+  .sheet-body {
+    min-width: 0;
+    padding: 8px clamp(20px, 5vw, 64px) clamp(64px, 8vw, 104px);
+  }
+  .sheet-part {
+    margin: clamp(48px, 6vw, 72px) 0 0;
+    font-family: 'Playfair Display', var(--f-text);
+    font-weight: 500;
+    font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem);
+    line-height: 1.1;
+    color: var(--tawny);
+  }
+  .sheet-part-note {
+    display: block;
+    margin-top: 8px;
+    font-family: var(--f-text);
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--greige-ink);
+  }
+  .sheet-section {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin: clamp(40px, 5vw, 56px) 0 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--gold);
+    font-size: clamp(0.875rem, 0.75rem + 0.4vw, 1.0625rem);
+    font-weight: 500;
+    letter-spacing: 0.26em;
+  }
+  .sheet-section-note {
+    font-family: var(--f-text);
+    font-style: italic;
+    font-size: 0.95rem;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--greige-ink);
+  }
+  .sheet-group {
+    margin: 28px 0 12px;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--gold-ink);
+  }
+  .sheet-item {
+    padding: 9px 0;
+  }
+  .sheet-item p {
+    margin: 0;
+  }
+  .item-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .item-name {
+    font-family: var(--f-caps);
+    font-size: 0.8125rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+  .item-dots {
+    flex: 1;
+    min-width: 20px;
+    border-bottom: 1px dotted rgb(15 41 62 / 0.35);
+    transform: translateY(-0.3em);
+  }
+  .item-price {
+    flex: none;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 1.05em;
+  }
+  .item-desc {
+    margin-top: 2px !important;
+    color: var(--ink);
+    font-size: 0.95em;
+    line-height: 1.45;
+  }
+  .sheet-notes {
+    list-style: none;
+    margin: clamp(48px, 6vw, 72px) 0 0;
+    padding: 20px 0 0;
+    border-top: 1px solid rgb(184 139 74 / 0.5);
+    font-style: italic;
+    font-size: 0.95em;
+    color: var(--greige-ink);
+  }
+
+  @media (max-width: 599px) {
+    .sheet-paper {
+      box-shadow: none;
+    }
+    .sheet-head {
+      padding-top: 20px;
+    }
+    .item-line {
+      flex-wrap: wrap;
+    }
+    .item-name {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+    }
+  }
+</style>
