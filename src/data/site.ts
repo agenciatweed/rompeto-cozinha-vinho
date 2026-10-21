@@ -1,7 +1,7 @@
 // Fatos da casa. Fonte: PRODUCT.md (Horarios.jpg, telefone para reservas.md, cardápios Inverno 2026).
 
 export const whatsapp =
-  'https://api.whatsapp.com/send/?phone=555192927823&text=Ol%C3%A1!%20Gostaria%20de%20reservar%20uma%20mesa%20no%20Rompeto.&type=phone_number&app_absent=0';
+  'https://api.whatsapp.com/send/?phone=5551992927823&text=Ol%C3%A1!%20Gostaria%20de%20reservar%20uma%20mesa%20no%20Rompeto.&type=phone_number&app_absent=0';
 
 export const instagram = 'https://www.instagram.com/rompeto.restaurante/';
 
@@ -39,13 +39,26 @@ export const menus = [
   {
     id: 'restaurante',
     title: 'Menu do Restaurante',
-    note: 'Aperitivos, entradas, principais e sobremesas',
+    note: 'Aperitivos, entradas e principais',
     pdf: '/cardapios/menu-restaurante.pdf',
     items: [
       { name: 'Crudo', desc: 'Peixe cru, cítricos, mini alcaparras', price: '84' },
       { name: 'Fettuccine com trufa', desc: 'Creme leve de trufas Savitar', price: '144' },
+      { name: 'Rigatoni e camarão rosa', desc: 'Tomate, pimentão vermelho e chouriço português. Levemente picante', price: '138' },
       { name: 'Bacalhau', desc: 'Purê de cebolada e pil pil', price: '198' },
+    ],
+  },
+  {
+    id: 'sobremesas',
+    title: 'Sobremesas',
+    note: 'Para terminar a refeição',
+    pdf: '/cardapios/menu-restaurante.pdf',
+    items: [
+      { name: 'Queijos', desc: '', price: '29' },
+      { name: 'Bergamota', desc: 'Sorbet e tomilho', price: '35' },
       { name: 'Floresta negra', desc: 'Chocolate 70%, chantilly e Amarena Fabbri', price: '49' },
+      { name: 'Tartelette de maçã', desc: 'Sorvete de caramelo salgado e streusel', price: '39' },
+      { name: 'Tiramisù', desc: '', price: '44' },
     ],
   },
   {

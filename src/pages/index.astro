@@ -3,10 +3,10 @@ import Base from '../layouts/Base.astro';
 import { whatsapp, instagram, address, hours, menus, season } from '../data/site';
 
 const tempos = [
-  { n: 'I', name: 'Aperitivo', sub: 'Horários e reserva', href: '#aperitivo', img: 'rompeto-38', pos: '50% 78%', alt: 'Cocktail vermelho servido em taça coupe sobre o balcão de pedra do bar' },
-  { n: 'II', name: 'Entrada', sub: 'Nossa história', href: '#entrada', img: 'rompeto-25', pos: '42% 50%', alt: 'Banco de couro ao longo da parede de vinhos iluminada, com mesas postas' },
-  { n: 'III', name: 'Principal', sub: 'Cardápios e cartas', href: '#principal', img: 'rompeto-48', pos: '55% 60%', alt: 'Mesa posta com taças Riedel e a placa dourada de reservado' },
-  { n: 'IV', name: 'Sobremesa', sub: 'Como chegar', href: '#sobremesa', img: 'rompeto-4', pos: '50% 40%', alt: 'Mesa posta junto às janelas do salão, ao anoitecer' },
+  { n: 'I', name: 'Reserva', sub: 'Horários e mesas', href: '#reserva', img: 'rompeto-38', pos: '50% 78%', alt: 'Cocktail vermelho servido em taça coupe sobre o balcão de pedra do bar' },
+  { n: 'II', name: 'A casa', sub: 'Nossa história', href: '#historia', img: 'rompeto-25', pos: '42% 50%', alt: 'Banco de couro ao longo da parede de vinhos iluminada, com mesas postas' },
+  { n: 'III', name: 'Cardápios', sub: 'Menus e cartas', href: '#cardapios', img: 'rompeto-48', pos: '55% 60%', alt: 'Mesa posta com taças Riedel e a placa dourada de reservado' },
+  { n: 'IV', name: 'Visite', sub: 'Como chegar', href: '#visite', img: 'rompeto-4', pos: '50% 40%', alt: 'Mesa posta junto às janelas do salão, ao anoitecer' },
 ];
 
 const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
@@ -68,14 +68,14 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
       </div>
     </section>
 
-    <!-- I · Aperitivo -->
-    <section id="aperitivo" class="tempo-section on-night" aria-labelledby="aperitivo-titulo">
+    <!-- I · Reserva -->
+    <section id="reserva" class="tempo-section on-night" aria-labelledby="aperitivo-titulo">
       <div class="aperitivo">
         <div class="aperitivo-text">
           <h2 id="aperitivo-titulo" class="section-head caps">
-            <span class="section-n">I</span> Aperitivo
+            <span class="section-n">I</span> Reserva
           </h2>
-          <p class="section-sub">Horários e reserva</p>
+          <p class="section-sub">Horários e mesas</p>
 
           <dl class="hours">
             {
@@ -97,7 +97,7 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
 
           <div class="aperitivo-cta">
             <a class="btn btn-gold" href={whatsapp} target="_blank" rel="noopener">Reservar pelo WhatsApp</a>
-            <p class="aperitivo-phone">ou escreva para <a href={whatsapp} target="_blank" rel="noopener">(51) 9292-7823</a></p>
+            <p class="aperitivo-phone">ou escreva para <a href={whatsapp} target="_blank" rel="noopener">(51) 99292-7823</a></p>
           </div>
         </div>
         <figure class="aperitivo-photo">
@@ -114,8 +114,8 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
       </div>
     </section>
 
-    <!-- II · Entrada -->
-    <section id="entrada" class="tempo-section" aria-labelledby="entrada-titulo">
+    <!-- II · A casa -->
+    <section id="historia" class="tempo-section" aria-labelledby="entrada-titulo">
       <div class="entrada">
         <figure class="entrada-photo">
           <img
@@ -130,7 +130,7 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
         </figure>
         <div class="entrada-text">
           <h2 id="entrada-titulo" class="section-head caps">
-            <span class="section-n">II</span> Entrada
+            <span class="section-n">II</span> A casa
           </h2>
           <p class="section-sub">Nossa história</p>
 
@@ -155,20 +155,20 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
       </div>
     </section>
 
-    <!-- III · Principal -->
-    <section id="principal" class="tempo-section principal-section" aria-labelledby="principal-titulo">
+    <!-- III · Cardápios -->
+    <section id="cardapios" class="tempo-section principal-section" aria-labelledby="principal-titulo">
       <div class="principal">
         <header class="principal-head">
           <h2 id="principal-titulo" class="section-head caps">
-            <span class="section-n">III</span> Principal
+            <span class="section-n">III</span> Cardápios
           </h2>
-          <p class="section-sub">Cardápios e cartas <span class="season caps">{season}</span></p>
+          <p class="section-sub">Menus e cartas <span class="season caps">{season}</span></p>
         </header>
 
         <div class="menus">
           {
             menus.map((m) => (
-              <article class="menu" aria-labelledby={`menu-${m.id}`}>
+              <article class={`menu menu-${m.id}`} aria-labelledby={`menu-${m.id}`}>
                 <h3 id={`menu-${m.id}`} class="menu-title caps">{m.title}</h3>
                 <p class="menu-note">{m.note}</p>
                 <ul class="menu-items">
@@ -182,7 +182,7 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
                           {it.price}
                         </span>
                       </span>
-                      <span class="item-desc">{it.desc}</span>
+                      {it.desc && <span class="item-desc">{it.desc}</span>}
                     </li>
                   ))}
                 </ul>
@@ -203,8 +203,8 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
       </div>
     </section>
 
-    <!-- IV · Sobremesa -->
-    <section id="sobremesa" class="tempo-section on-night sobremesa-section" aria-labelledby="sobremesa-titulo">
+    <!-- IV · Visite -->
+    <section id="visite" class="tempo-section on-night sobremesa-section" aria-labelledby="sobremesa-titulo">
       <figure class="sobremesa-photo">
         <img
           src={src('rompeto-19', 1400)}
@@ -219,7 +219,7 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
       <div class="sobremesa">
         <div>
           <h2 id="sobremesa-titulo" class="section-head caps">
-            <span class="section-n">IV</span> Sobremesa
+            <span class="section-n">IV</span> Visite
           </h2>
           <p class="section-sub">Como chegar</p>
         </div>
@@ -241,6 +241,7 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
 
   <footer class="footer on-night">
     <img class="footer-mark" src="/brand/logo-cream.svg" alt="Rompeto · Cozinha & Vinho" width="1140" height="504" loading="lazy" />
+    <img class="footer-armazem" src="/brand/armazem-dos-importados.svg" alt="Armazém dos Importados" width="805" height="490" loading="lazy" />
     <p class="footer-meta">Cardápios {season} <span aria-hidden="true">·</span> Fotografia: Fábio Mattos</p>
   </footer>
 
@@ -545,9 +546,9 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
   .aperitivo-cta {
     margin-top: clamp(32px, 3.6vw, 48px);
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 14px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
   }
   .aperitivo-phone {
     margin: 0;
@@ -618,6 +619,7 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
   }
   .ill-inline {
     position: static;
+    height: auto;
     width: 46px;
     margin-top: 20px;
     opacity: 0.9;
@@ -655,6 +657,13 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: clamp(48px, 6vw, 96px) clamp(48px, 7vw, 128px);
     margin-top: clamp(48px, 6vw, 88px);
+  }
+  .menu-vinhos {
+    grid-column: 1 / -1;
+  }
+  .menu-vinhos .menu-items {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(48px, 7vw, 128px);
   }
   .menu-title {
     margin: 0;
@@ -795,6 +804,11 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
     border-top: 1px solid rgb(184 139 74 / 0.35);
     text-align: center;
   }
+  .footer-armazem {
+    width: 104px;
+    height: auto;
+    margin-top: 10px;
+  }
   .footer-mark {
     width: min(260px, 60vw);
     height: auto;
@@ -857,6 +871,9 @@ const src = (id: string, w: number) => `/img/${id}-${w}.webp`;
       aspect-ratio: 4 / 5;
     }
     .menus {
+      grid-template-columns: 1fr;
+    }
+    .menu-vinhos .menu-items {
       grid-template-columns: 1fr;
     }
     .sobremesa {

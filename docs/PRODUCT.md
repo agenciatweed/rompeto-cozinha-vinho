@@ -33,7 +33,7 @@ Rompeto is the revival of a real family wine brand: founded in the 1990s by Rome
 ## Operating Context
 
 - **Address**: Anita Garibaldi, Nº 448, Mont'Serrat, Porto Alegre/RS.
-- **Reservations**: WhatsApp only, `https://api.whatsapp.com/send/?phone=555192927823&text&type=phone_number&app_absent=0` (source: `telefone para reservas.md`).
+- **Reservations**: WhatsApp only, (51) 99292-7823, `https://api.whatsapp.com/send/?phone=5551992927823&type=phone_number&app_absent=0`. The number in `telefone para reservas.md` was missing the leading 9; corrected by the client.
 - **Hours** (source: `Horarios.jpg`):
   - Bar: Ter–Qui 17h–22h30 · Sex–Sáb 12h–23h
   - Jantar: Ter–Qui 19h–22h30 · Sex–Sáb 19h–23h

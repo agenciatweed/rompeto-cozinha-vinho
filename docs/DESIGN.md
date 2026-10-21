@@ -104,11 +104,11 @@ components:
 
 **Creative North Star: "A Carta da Casa"**
 
-Every surface is set like the house's printed carta: a cream or night granite ground, a navy signature logotype, wide-tracked Affogato capitals for heads, Garamond italic for the voice underneath, and fine gold rules that divide the page the way a menu divides its courses. Content is organized in numbered tempos (I Aperitivo, II Entrada, III Principal, IV Sobremesa), and the numeral is part of the heading, not a label stacked above it.
+Every surface is set like the house's printed carta: a cream or night granite ground, a navy signature logotype, wide-tracked Affogato capitals for heads, Garamond italic for the voice underneath, and fine gold rules that divide the page the way a menu divides its courses. Content is organized in numbered tempos named for what they hold (I Reserva, II A casa, III Cardápios, IV Visite), never for menu courses, which visitors would read as dish sections; the numeral is part of the heading, not a label stacked above it.
 
 The density is calm. Sections breathe with tall vertical padding, type stays mostly at one weight, and the prestige comes from material (granite, real night photography, one-line illustrations) rather than from effects. Two grounds alternate: cream for daylight content (story, menus) and Night Harvest for evening content (hours, visit, footer). Gold is the only accent and lives in hairlines, numerals and one button.
 
-Photography is real and credited (Fábio Mattos). It sits in square-cornered frames on a night-deep backing, cropped deliberately with object-position, never full-bleed behind text, with one exception: the panoramic dining-room plate that opens IV Sobremesa runs edge to edge as its own band. The brand manual (Manual de Identidade Visual) is binding over this file.
+Photography is real and credited (Fábio Mattos). It sits in square-cornered frames on a night-deep backing, cropped deliberately with object-position, never full-bleed behind text, with one exception: the panoramic dining-room plate that opens IV Visite runs edge to edge as its own band. The brand manual (Manual de Identidade Visual) is binding over this file.
 
 **Key Characteristics:**
 - Two granite grounds, cream and night, alternating by section.
